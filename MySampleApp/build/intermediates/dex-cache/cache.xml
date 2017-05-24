@@ -3,12 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b3fd53a48f8b1095b03a97e6c69f41a38293f090">
-        <dex dex="C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_3dd9ee9062c4ee89eaff5ba81f42a74362cc33f7\classes.dex" />
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b029b3ef450ae31431343abc40acf545c4a24191\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5de3497f1d7aeaee9074248176c02ba2d4a8bb3">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7e3fd3662b8a41e8a56c7363dd8e43db98939ab7\classes.dex" />
     </item>
 
 </items>

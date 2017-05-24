@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\splash_icon.png",
+        "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-hdpi\\splash_icon.png"
+    },
+    {
         "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\splash_icon.png",
         "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-hdpi\\splash_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",

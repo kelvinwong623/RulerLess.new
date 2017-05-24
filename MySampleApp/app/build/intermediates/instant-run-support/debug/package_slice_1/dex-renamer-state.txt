@@ -1,0 +1,4 @@
+#Wed May 24 15:56:35 PDT 2017
+base.0=C\:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=C\:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

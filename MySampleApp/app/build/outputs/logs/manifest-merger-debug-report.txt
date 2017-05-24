@@ -1,98 +1,98 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:16:1-45:12
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:16:1-45:12
 	package
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:17:5-30
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:17:5-30
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:16:11-69
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:16:11-69
 	android:versionCode
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:19:5-67
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:19:22-64
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:20:5-79
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:20:22-76
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:21:5-76
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:21:5-76
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:21:22-73
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:21:22-73
 application
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:23:5-44:19
-MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:19:5-23:19
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\0a4a6825ceb3e12e894ba5014a47702267c68107\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\d4b096c44a67a8dee9c084550aea5e5b6a5b907c\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\00e289d2969319ee4f5edc35b0b77b66e9417447\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\2cdef018278b6509dbd4c0f1205846ace895836d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\32d3e9aac6f47f6f3761036274004df033193e8a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\1b52056399acb236c5f70223c9fc4e54d3718ebf\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\24d548c1e950c9bde3a5cfa6db1d5a03c8325351\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\0aa7956698a116ad39e691501ff17fbf1f687f0a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\b86d069ae025862a37f703238c66bfb736b4ce5a\output\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:23:5-44:19
+MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:19:5-23:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\edavi\.android\build-cache\18919b2293743fbced774d965b90bcbc2ea0ed79\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\edavi\.android\build-cache\5fd14850bf2cabb90da71ff0d8051d2758c9c772\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\edavi\.android\build-cache\5f41ced32fb316cf5e17cc88ffd4df6a1383ed8c\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\edavi\.android\build-cache\f56d423b3299b340e3a51ef3bf9e1664269e5e33\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\edavi\.android\build-cache\be2d2ece2cf12a35e540dfba8f061e130a565071\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\edavi\.android\build-cache\84dc1d7cdb51a8f131630decffaa99b67e9fe63a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:26:9-41
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:26:9-41
 	android:supportsRtl
-		ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:22:9-35
+		ADDED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:22:9-35
 	android:allowBackup
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:24:9-35
 	android:icon
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:25:9-43
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:25:9-43
 	android:theme
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:27:9-40
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:27:9-40
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:28:9-51
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:28:9-51
 activity#com.mysampleapp.SplashActivity
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:label
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:32:13-45
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:32:13-45
 	android:configChanges
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:33:13-83
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:33:13-83
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:31:13-43
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:31:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:34:13-37:29
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:34:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:36:27-74
 activity#com.mysampleapp.MainActivity
-ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:39:9-43:20
+ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:39:9-43:20
 	android:label
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:42:13-56
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:42:13-56
 	android:launchMode
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:41:13-48
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:41:13-48
 	android:name
-		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:40:13-41
+		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:40:13-41
 uses-sdk
-INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.0] C:\Users\Kelvin Wong\.android\build-cache\6cc7b2d63fc3b63cbf0b71c1d09840ff7a05bdf5\output\AndroidManifest.xml:18:5-42
-MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:15:5-17:41
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\0a4a6825ceb3e12e894ba5014a47702267c68107\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\d4b096c44a67a8dee9c084550aea5e5b6a5b907c\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\00e289d2969319ee4f5edc35b0b77b66e9417447\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\2cdef018278b6509dbd4c0f1205846ace895836d\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\32d3e9aac6f47f6f3761036274004df033193e8a\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\1b52056399acb236c5f70223c9fc4e54d3718ebf\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\24d548c1e950c9bde3a5cfa6db1d5a03c8325351\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\0aa7956698a116ad39e691501ff17fbf1f687f0a\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\b86d069ae025862a37f703238c66bfb736b4ce5a\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\edavi\.android\build-cache\0abea597d8355892d6bcf2e6880835468810ea01\output\AndroidManifest.xml:18:5-42
+MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:15:5-17:41
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\edavi\.android\build-cache\18919b2293743fbced774d965b90bcbc2ea0ed79\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\edavi\.android\build-cache\5fd14850bf2cabb90da71ff0d8051d2758c9c772\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\edavi\.android\build-cache\5f41ced32fb316cf5e17cc88ffd4df6a1383ed8c\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\edavi\.android\build-cache\f56d423b3299b340e3a51ef3bf9e1664269e5e33\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\edavi\.android\build-cache\be2d2ece2cf12a35e540dfba8f061e130a565071\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\edavi\.android\build-cache\84dc1d7cdb51a8f131630decffaa99b67e9fe63a\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\0a4a6825ceb3e12e894ba5014a47702267c68107\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\edavi\.android\build-cache\18919b2293743fbced774d965b90bcbc2ea0ed79\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml
