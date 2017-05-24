@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3fd53a48f8b1095b03a97e6c69f41a38293f090">
+        <dex dex="C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_3dd9ee9062c4ee89eaff5ba81f42a74362cc33f7\classes.dex" />
+    </item>
+
+</items>
