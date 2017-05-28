@@ -655,8 +655,8 @@ int id tabMode 0x7f0b0016
 int id text 0x7f0b0081
 int id text2 0x7f0b007f
 int id textSpacerNoButtons 0x7f0b0043
-int id textView 0x7f0b0069
 int id textViewDistance 0x7f0b006c
+int id textView_UserList 0x7f0b0069
 int id time 0x7f0b007d
 int id title 0x7f0b0039
 int id title_template 0x7f0b003e

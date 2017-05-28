@@ -32,7 +32,9 @@ import com.amazonaws.AmazonClientException;
 import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBMapper;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBQueryExpression;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBScanExpression;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.PaginatedQueryList;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.PaginatedScanList;
 import com.amazonaws.mobilehelper.auth.IdentityManager;
 import com.mysampleapp.navigation.NavigationDrawer;
 
@@ -56,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     /** Database Mapper */
     final DynamoDBMapper mapper = AWSMobileClient.defaultMobileClient().getDynamoDBMapper();
+    EditText editTextConnect;
+    EditText editTextUsername;
+    TextView textViewUserList;
 
     /** Class name for log messages. */
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
@@ -152,10 +157,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         insertData(m_username, "currentTime: TODO", m_lat, m_lon, m_el);
 
         // Update activity_main
-        EditText editTextConnect = (EditText)findViewById(R.id.editText_Connect);
-        EditText editTextUsername = (EditText)findViewById(R.id.editText_Username);
+        editTextConnect = (EditText)findViewById(R.id.editText_Connect);
+        editTextUsername = (EditText)findViewById(R.id.editText_Username);
+        textViewUserList = (TextView)findViewById(R.id.textView_UserList);
         editTextConnect.setText(m_username, TextView.BufferType.EDITABLE);
         editTextUsername.setText(m_username, TextView.BufferType.EDITABLE);
+
 
         // Refresh List of Users to connnect to
         displayAllUsers();
@@ -353,6 +360,46 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     /**
+     * retrieve location object of given username
+     */
+    // TODO: Need to figure out how to run this on seperate thread to prevent app from crashing from exception
+    public LocationsDO getGPS(String username)
+    {
+        final LocationsDO itemToFind = new LocationsDO();
+        final LocationsDO item = new LocationsDO();
+        itemToFind.setUsername(username);
+        item.setUsername("");
+//        try {
+//
+//            final DynamoDBQueryExpression<LocationsDO> queryExpression = new DynamoDBQueryExpression<LocationsDO>()
+//                    .withHashKeyValues(itemToFind)
+//                    .withConsistentRead(false)
+//                    .withLimit(MAX_BATCH_SIZE_FOR_DELETE);
+//
+//            final PaginatedQueryList<LocationsDO> results = mapper.query(LocationsDO.class, queryExpression);
+//
+//            Iterator<LocationsDO> resultsIterator = results.iterator();
+//
+//            AmazonClientException lastException = null;
+//
+//            if (resultsIterator.hasNext()) {
+//                final LocationsDO item = resultsIterator.next();
+//                return item;
+//            }
+//            else {
+//                final LocationsDO item = new LocationsDO();
+//                item.setUserId("");
+//                return item;
+//            }
+//        } catch (final AmazonClientException ex) {
+//            final LocationsDO item = new LocationsDO();
+//            item.setUserId("");
+//            return item;
+//        }
+        return item;
+    }
+
+    /**
      * returns string containing device name from phone model/manufacturer
      * @return String device name
      */
@@ -385,12 +432,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void displayAllUsers()
     {
         // attach method to button
-    }
-
-    // TODO: get gps corrdinates of current selected user
-    public void getGPS(String userId)
-    {
-
+        String results = "Username\t\t\t\t\t\t\t\t\tUserId\n";
+        PaginatedScanList<LocationsDO> users = scan();
+        Iterator<LocationsDO> usersIterator;
+        if (users != null){
+            usersIterator = users.iterator();
+            while(usersIterator.next() != null) {
+                LocationsDO temp = (LocationsDO)usersIterator;
+                results += temp.getUsername() + "\t" + temp.getUserId() + "\n";
+            }
+        }
+        textViewUserList.setText(results, TextView.BufferType.EDITABLE);
     }
 
     // TODO: obtain userId from username (query database)
@@ -407,10 +459,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    // TODO: get user's GPS coordinates (lat/lon/el)
-    public void getGPSCoord()
-    {
 
+    /**
+     * Returns all location objects in database if they exist, null otherwise
+     * @return PaginatedScanList of LocationsDO objects
+     */
+    // TODO: Need to figure out how to run scan on seperate thread to prevent exception from being thrown
+    public PaginatedScanList<LocationsDO> scan()
+    {
+        PaginatedScanList<LocationsDO> results = null;
+//        try {
+//            final DynamoDBScanExpression scanExpression = new DynamoDBScanExpression();
+//            results = mapper.scan(LocationsDO.class, scanExpression);
+//        } catch (final AmazonClientException ex) {
+//            return results;
+//        }
+        return results;
     }
 
 }

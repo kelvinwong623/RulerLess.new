@@ -2374,8 +2374,8 @@ containing a value of this type.
         public static final int text=0x7f0b0081;
         public static final int text2=0x7f0b007f;
         public static final int textSpacerNoButtons=0x7f0b0043;
-        public static final int textView=0x7f0b0069;
         public static final int textViewDistance=0x7f0b006c;
+        public static final int textView_UserList=0x7f0b0069;
         public static final int time=0x7f0b007d;
         public static final int title=0x7f0b0039;
         public static final int title_template=0x7f0b003e;
