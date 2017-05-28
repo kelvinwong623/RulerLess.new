@@ -577,8 +577,8 @@ int id disableHome 0x7f0b0017
 int id drawer_item_icon 0x7f0b0075
 int id drawer_item_text 0x7f0b0076
 int id drawer_layout 0x7f0b0060
-int id editTextConnect 0x7f0b0066
-int id editTextUsername 0x7f0b0064
+int id editText_Connect 0x7f0b0066
+int id editText_Username 0x7f0b0064
 int id edit_query 0x7f0b0053
 int id end 0x7f0b0025
 int id end_padder 0x7f0b0083

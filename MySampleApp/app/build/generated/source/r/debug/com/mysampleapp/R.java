@@ -2296,8 +2296,8 @@ containing a value of this type.
         public static final int drawer_item_icon=0x7f0b0075;
         public static final int drawer_item_text=0x7f0b0076;
         public static final int drawer_layout=0x7f0b0060;
-        public static final int editTextConnect=0x7f0b0066;
-        public static final int editTextUsername=0x7f0b0064;
+        public static final int editText_Connect=0x7f0b0066;
+        public static final int editText_Username=0x7f0b0064;
         public static final int edit_query=0x7f0b0053;
         public static final int end=0x7f0b0025;
         public static final int end_padder=0x7f0b0083;

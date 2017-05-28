@@ -33,7 +33,7 @@
             tools:layout_editor_absoluteX="0dp">
 
             <EditText
-                android:id="@+id/editTextUsername"
+                android:id="@+id/editText_Username"
                 android:layout_width="155dp"
                 android:layout_height="46dp"
                 android:ems="10"
@@ -45,7 +45,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextConnect" />
+                app:layout_constraintTop_toBottomOf="@+id/editText_Connect" />
 
             <android.support.constraint.Guideline
                 android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="Change Name"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toRightOf="@+id/editTextUsername"
+                app:layout_constraintLeft_toRightOf="@+id/editText_Username"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/buttonCon"
                 android:layout_marginBottom="8dp" />
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:text="Connect"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintLeft_toRightOf="@+id/editTextConnect"
+                app:layout_constraintLeft_toRightOf="@+id/editText_Connect"
                 app:layout_constraintBottom_toTopOf="@+id/buttonUpdateName"
                 app:layout_constraintTop_toBottomOf="@+id/buttonRefresh"
                 app:layout_constraintVertical_bias="0.3"
@@ -100,7 +100,7 @@
                 tools:layout_editor_absoluteX="0dp" />
 
             <EditText
-                android:id="@+id/editTextConnect"
+                android:id="@+id/editText_Connect"
                 android:layout_width="163dp"
                 android:layout_height="46dp"
                 android:ems="10"
@@ -110,7 +110,7 @@
                 android:textAlignment="center"
                 app:layout_constraintRight_toLeftOf="@+id/buttonCon"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/editTextUsername"
+                app:layout_constraintBottom_toTopOf="@+id/editText_Username"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDistance" />
 
             <Button
@@ -132,7 +132,7 @@
                 android:layout_height="56dp"
                 android:text="Distance"
                 android:textAlignment="center"
-                app:layout_constraintBottom_toTopOf="@+id/editTextConnect"
+                app:layout_constraintBottom_toTopOf="@+id/editText_Connect"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
                 app:layout_constraintVertical_bias="0.241"
                 android:layout_marginLeft="29dp"
