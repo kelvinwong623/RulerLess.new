@@ -34,13 +34,14 @@ import com.amazonaws.mobilehelper.auth.IdentityManager;
 import com.mysampleapp.navigation.NavigationDrawer;
 
 import com.amazonaws.models.nosql.LocationsDO;
+import android.os.Build;
 
 import java.util.UUID;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     /** Username */
-    private final String m_username = "UNKNOWN";
+    private final String m_username = getDeviceName();
 
     /** User's GPS lon/lat/el. */
     private final double m_lat=0, m_lon=0, m_el=0;
@@ -258,6 +259,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }).start();
+    }
+
+    public String getDeviceName() {
+        String manufacturer = Build.MANUFACTURER;
+        String model = Build.MODEL;
+        if (model.startsWith(manufacturer)) {
+            return capitalize(model);
+        } else {
+            return capitalize(manufacturer) + " " + model;
+        }
+    }
+
+
+    private String capitalize(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        char first = s.charAt(0);
+        if (Character.isUpperCase(first)) {
+            return s;
+        } else {
+            return Character.toUpperCase(first) + s.substring(1);
+        }
     }
     // TODO: List all recent items in database and display to user
     public void displayAllUsers()
