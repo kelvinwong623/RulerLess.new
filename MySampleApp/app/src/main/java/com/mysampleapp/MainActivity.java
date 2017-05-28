@@ -46,11 +46,13 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     /** Username */
     private final String m_username = getDeviceName();
+    private final String m_userId = AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID();
 
     /** User's GPS lon/lat/el. */
     // TODO: Replace default values with current GPS data
@@ -61,6 +63,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText editTextConnect;
     EditText editTextUsername;
     TextView textViewUserList;
+
+    LocationsDO userConnectedto = new LocationsDO();
+    PaginatedScanList<LocationsDO> scanResults = null;
 
     /** Class name for log messages. */
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
@@ -166,6 +171,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // Refresh List of Users to connnect to
         displayAllUsers();
+
 
         // TODO:  Remove user's location from list when application closes, not sure where that goes.
     }
@@ -362,41 +368,59 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * retrieve location object of given username
      */
-    // TODO: Need to figure out how to run this on seperate thread to prevent app from crashing from exception
-    public LocationsDO getGPS(String username)
+    // TODO: Inserted a sleep since there is a race condition, need a better way to do this
+    public void getGPS()
     {
-        final LocationsDO itemToFind = new LocationsDO();
-        final LocationsDO item = new LocationsDO();
-        itemToFind.setUsername(username);
-        item.setUsername("");
-//        try {
-//
-//            final DynamoDBQueryExpression<LocationsDO> queryExpression = new DynamoDBQueryExpression<LocationsDO>()
-//                    .withHashKeyValues(itemToFind)
-//                    .withConsistentRead(false)
-//                    .withLimit(MAX_BATCH_SIZE_FOR_DELETE);
-//
-//            final PaginatedQueryList<LocationsDO> results = mapper.query(LocationsDO.class, queryExpression);
-//
-//            Iterator<LocationsDO> resultsIterator = results.iterator();
-//
-//            AmazonClientException lastException = null;
-//
-//            if (resultsIterator.hasNext()) {
-//                final LocationsDO item = resultsIterator.next();
-//                return item;
-//            }
-//            else {
-//                final LocationsDO item = new LocationsDO();
-//                item.setUserId("");
-//                return item;
-//            }
-//        } catch (final AmazonClientException ex) {
-//            final LocationsDO item = new LocationsDO();
-//            item.setUserId("");
-//            return item;
-//        }
-        return item;
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    final LocationsDO itemToFind = new LocationsDO();
+                    itemToFind.setUsername(editTextConnect.toString());
+                    itemToFind.setUserId(m_userId);
+                    final DynamoDBQueryExpression<LocationsDO> queryExpression = new DynamoDBQueryExpression<LocationsDO>()
+                            .withHashKeyValues(itemToFind)
+                            .withConsistentRead(false)
+                            .withLimit(MAX_BATCH_SIZE_FOR_DELETE);
+
+
+                    final PaginatedQueryList<LocationsDO> results = mapper.query(LocationsDO.class, queryExpression);
+
+                    Iterator<LocationsDO> resultsIterator = results.iterator();
+
+                    AmazonClientException lastException = null;
+
+                    if (resultsIterator.hasNext()) {
+                        final LocationsDO item = resultsIterator.next();
+                        userConnectedto.setUserId(item.getUserId());
+                        userConnectedto.setUsername(item.getUsername());
+                        userConnectedto.setTime(item.getTime());
+                        userConnectedto.setLatitude(item.getLatitude());
+                        userConnectedto.setLongitude(item.getLongitude());
+                        userConnectedto.setElevation(item.getElevation());
+                    } else {
+                        userConnectedto.setUserId("");
+                        userConnectedto.setUsername("");
+                        userConnectedto.setTime("");
+                        userConnectedto.setLatitude(0.0);
+                        userConnectedto.setLongitude(0.0);
+                        userConnectedto.setElevation(0.0);
+                    }
+                } catch (final AmazonClientException ex) {
+                    userConnectedto.setUserId("");
+                    userConnectedto.setUsername("");
+                    userConnectedto.setTime("");
+                    userConnectedto.setLatitude(0.0);
+                    userConnectedto.setLongitude(0.0);
+                    userConnectedto.setElevation(0.0);
+                }
+            }
+        }).start();
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -432,14 +456,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void displayAllUsers()
     {
         // attach method to button
-        String results = "Username\t\t\t\t\t\t\t\t\tUserId\n";
-        PaginatedScanList<LocationsDO> users = scan();
+        String results = "Username    |    UserId\n";
+        scan();
         Iterator<LocationsDO> usersIterator;
-        if (users != null){
-            usersIterator = users.iterator();
-            while(usersIterator.next() != null) {
-                LocationsDO temp = (LocationsDO)usersIterator;
-                results += temp.getUsername() + "\t" + temp.getUserId() + "\n";
+        if (scanResults != null){
+            usersIterator = scanResults.iterator();
+            while(usersIterator.hasNext()) {
+                LocationsDO temp = (LocationsDO)usersIterator.next();
+                results += temp.getUsername() + "       " + temp.getUserId().substring(40) + "\n";
             }
         }
         textViewUserList.setText(results, TextView.BufferType.EDITABLE);
@@ -465,16 +489,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * @return PaginatedScanList of LocationsDO objects
      */
     // TODO: Need to figure out how to run scan on seperate thread to prevent exception from being thrown
-    public PaginatedScanList<LocationsDO> scan()
+    public void scan()
     {
-        PaginatedScanList<LocationsDO> results = null;
-//        try {
-//            final DynamoDBScanExpression scanExpression = new DynamoDBScanExpression();
-//            results = mapper.scan(LocationsDO.class, scanExpression);
-//        } catch (final AmazonClientException ex) {
-//            return results;
-//        }
-        return results;
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                PaginatedScanList<LocationsDO> results = null;
+                try {
+                    final DynamoDBScanExpression scanExpression = new DynamoDBScanExpression();
+                    scanResults = mapper.scan(LocationsDO.class, scanExpression);
+                } catch (final AmazonClientException ex) {
+                    scanResults = null;
+                }
+            }
+        }).start();
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }
