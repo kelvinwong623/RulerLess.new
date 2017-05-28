@@ -3,21 +3,426 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        jar="C:\Users\edavi\.android\build-cache\5f41ced32fb316cf5e17cc88ffd4df6a1383ed8c\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b029b3ef450ae31431343abc40acf545c4a24191\classes.dex" />
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84253d74e9e0485774fdebd547e9e59afa26477b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\edavi\.android\build-cache\f56d423b3299b340e3a51ef3bf9e1664269e5e33\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e5de3497f1d7aeaee9074248176c02ba2d4a8bb3">
-        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7e3fd3662b8a41e8a56c7363dd8e43db98939ab7\classes.dex" />
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_243dbea66d794eba694d59cb823e7ec5fcbcfd98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_9831ead9598bbd1d2b4f5925eed3e0190ab2581a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_8af1c017b99121c94cd122a3df5e1660e11f964d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-kms\2.4.2\939fbde1af746ca406688dbf5f11e35bdc431243\aws-android-sdk-kms-2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="939fbde1af746ca406688dbf5f11e35bdc431243">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-kms-2.4.2_9323466159ee486f09261c62ebb17a0060c63b82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_5f154aba0db8074a86c6b010c5f92399396f3c41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\0abea597d8355892d6bcf2e6880835468810ea01\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7961672ce88818970b733d1f07383cbb462fc00a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.4.2\3c144566ee18c4c725b4e5aef1793bfec4f9d022\aws-android-sdk-core-2.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c144566ee18c4c725b4e5aef1793bfec4f9d022">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-core-2.4.2_b3552b1802c6573549df7b77706ace668a4e1070\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\0abea597d8355892d6bcf2e6880835468810ea01\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7961672ce88818970b733d1f07383cbb462fc00a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\be2d2ece2cf12a35e540dfba8f061e130a565071\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1aaea50042676b9396a7fe810992afda1f10611d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2913f01f459e7baf1e803639e483fb9e6569ac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb-mapper\2.4.2\4d313b77b144c5e57b7da55ffaf5857d73b93bc0\aws-android-sdk-ddb-mapper-2.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d313b77b144c5e57b7da55ffaf5857d73b93bc0">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-ddb-mapper-2.4.2_aa9e7b075846131e2ac243d2f9c8789c20ab2a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-s3\2.4.2\48c90942f154c2b84341a90ea07383314881e0ad\aws-android-sdk-s3-2.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48c90942f154c2b84341a90ea07383314881e0ad">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-s3-2.4.2_f8cc101314cb970bbb76c7cae79b6d95378d0e28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_8af1c017b99121c94cd122a3df5e1660e11f964d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\84dc1d7cdb51a8f131630decffaa99b67e9fe63a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5202db62c9beea99bacd9f7d2e723129b882a88f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-cognito\2.4.2\487ff1ba87c27032fe6f80ce09c9a2a3dc5e3884\aws-android-sdk-cognito-2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="487ff1ba87c27032fe6f80ce09c9a2a3dc5e3884">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-cognito-2.4.2_218108d2932b002c4bfdf4f2e6db5dbd370a48e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\f56d423b3299b340e3a51ef3bf9e1664269e5e33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_243dbea66d794eba694d59cb823e7ec5fcbcfd98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\84dc1d7cdb51a8f131630decffaa99b67e9fe63a\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ae62648c578bca8307cd25942f48977ce7e43b81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.4.2\3c144566ee18c4c725b4e5aef1793bfec4f9d022\aws-android-sdk-core-2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c144566ee18c4c725b4e5aef1793bfec4f9d022">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-core-2.4.2_b3552b1802c6573549df7b77706ace668a4e1070\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\5fd14850bf2cabb90da71ff0d8051d2758c9c772\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_124570979c1740960d9711f6ca39fbdb90398950\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\5f41ced32fb316cf5e17cc88ffd4df6a1383ed8c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84253d74e9e0485774fdebd547e9e59afa26477b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_9831ead9598bbd1d2b4f5925eed3e0190ab2581a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\84dc1d7cdb51a8f131630decffaa99b67e9fe63a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5202db62c9beea99bacd9f7d2e723129b882a88f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\5fd14850bf2cabb90da71ff0d8051d2758c9c772\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_124570979c1740960d9711f6ca39fbdb90398950\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\84dc1d7cdb51a8f131630decffaa99b67e9fe63a\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ae62648c578bca8307cd25942f48977ce7e43b81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_1799074125ba4621f55b85e07ffed8339c5cc735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-s3\2.4.2\48c90942f154c2b84341a90ea07383314881e0ad\aws-android-sdk-s3-2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48c90942f154c2b84341a90ea07383314881e0ad">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-s3-2.4.2_f8cc101314cb970bbb76c7cae79b6d95378d0e28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\18919b2293743fbced774d965b90bcbc2ea0ed79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d6e30dabe559b96c4bab98cbbd154c7684b5a2d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb\2.4.2\34b5bf11f900c9e9915d77b0db9ddde760cb3faa\aws-android-sdk-ddb-2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34b5bf11f900c9e9915d77b0db9ddde760cb3faa">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-ddb-2.4.2_c4bce5a21c8376fd6a4c8e89c6c9470ee539fb6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-cognito\2.4.2\487ff1ba87c27032fe6f80ce09c9a2a3dc5e3884\aws-android-sdk-cognito-2.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="487ff1ba87c27032fe6f80ce09c9a2a3dc5e3884">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-cognito-2.4.2_218108d2932b002c4bfdf4f2e6db5dbd370a48e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0723364bdf29a2b1941ff2a8afcde261f9f73a77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb-mapper\2.4.2\4d313b77b144c5e57b7da55ffaf5857d73b93bc0\aws-android-sdk-ddb-mapper-2.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d313b77b144c5e57b7da55ffaf5857d73b93bc0">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-ddb-mapper-2.4.2_aa9e7b075846131e2ac243d2f9c8789c20ab2a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-ddb\2.4.2\34b5bf11f900c9e9915d77b0db9ddde760cb3faa\aws-android-sdk-ddb-2.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34b5bf11f900c9e9915d77b0db9ddde760cb3faa">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-ddb-2.4.2_c4bce5a21c8376fd6a4c8e89c6c9470ee539fb6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_5f154aba0db8074a86c6b010c5f92399396f3c41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\be2d2ece2cf12a35e540dfba8f061e130a565071\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_035a467594c345fc2e4a958c7e8fc8249af40c17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53ce5237a023573c9212ca2bb80348d39a10267a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\be2d2ece2cf12a35e540dfba8f061e130a565071\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1aaea50042676b9396a7fe810992afda1f10611d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53ce5237a023573c9212ca2bb80348d39a10267a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0723364bdf29a2b1941ff2a8afcde261f9f73a77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2913f01f459e7baf1e803639e483fb9e6569ac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\18919b2293743fbced774d965b90bcbc2ea0ed79\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d6e30dabe559b96c4bab98cbbd154c7684b5a2d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_1799074125ba4621f55b85e07ffed8339c5cc735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-kms\2.4.2\939fbde1af746ca406688dbf5f11e35bdc431243\aws-android-sdk-kms-2.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="939fbde1af746ca406688dbf5f11e35bdc431243">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-kms-2.4.2_9323466159ee486f09261c62ebb17a0060c63b82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_aa007486d1b674a6e521f7ce4edc372915f6216f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\be2d2ece2cf12a35e540dfba8f061e130a565071\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_035a467594c345fc2e4a958c7e8fc8249af40c17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3fd53a48f8b1095b03a97e6c69f41a38293f090">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_87b53e6ff7b89dee3f3dbf6c21b87ce035f030c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_aa007486d1b674a6e521f7ce4edc372915f6216f\classes.dex" />
     </item>
 
 </items>

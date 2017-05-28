@@ -1,19 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\splash_icon.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\splash_icon.png"
-    },
-    {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\icon_home.png",
         "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_home.png"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\user_data_storage.png",
@@ -24,32 +16,12 @@
         "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\database.png"
     },
     {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\user_data_storage.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_data_storage.png"
-    },
-    {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\user.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user.png"
-    },
-    {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\user.png",
         "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user.png"
     },
     {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\user_identity.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_identity.png"
-    },
-    {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\splash_icon.png",
         "source": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\splash_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\icon_home.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_home.png"
-    },
-    {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\database.png",
-        "source": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\database.png"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\user_identity.png",

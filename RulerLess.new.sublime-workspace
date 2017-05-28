@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"close",
+				"close_conn"
+			],
+			[
+				"fron",
+				"front_header"
+			],
+			[
+				"seq",
+				"sequence"
+			],
+			[
+				"P",
+				"MAX_PACKET_LEN"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "MySampleApp/app/src/main/java/com/mysampleapp/MainActivity.java",
+			"settings":
+			{
+				"buffer_size": 7867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 2979 files for \"NoSQL Database\"\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml:\n  345      <string name=\"button_text_sign_in\">SIGN IN</string>\n  346      <string name=\"button_text_sign_out\">SIGN OUT</string>\n  347:     <string name=\"feature_nosql_database_demo_button\">Demo NoSQL Database</string>\n  348:     <string name=\"feature_nosql_database_description\">The Sample App demonstrates how to access your configured Amazon DynamoDB NoSQL database tables. Select your table, insert sample data, and perform queries by choosing from a list of examples. Hold down an item in query results to update or delete the item. When you\\'re done with the demo, you can remove the sample data from your table.</string>\n  349      <string name=\"feature_nosql_database_overview\">Store data in the cloud.</string>\n  350      <string name=\"feature_nosql_database_powered_by\">Powered by Amazon DynamoDB</string>\n  351      <string name=\"feature_nosql_database_subtitle\">Store data in the cloud.</string>\n  352:     <string name=\"feature_nosql_database_title\">NoSQL Database</string>\n  353      <string name=\"feature_sign_in_demo_button\">Demo User Identity</string>\n  354      <string name=\"feature_sign_in_description\">The Sample App demonstrates assignment of a unique identifier for the user, the Amazon Cognito User ID. If optional or mandatory User Sign-in has been enabled in your project, then the Sample App also includes a sign-in screen, with a button for each configured sign-in provider.</string>\n  ...\n  367      <string name=\"identity_demo_unknown_identity_text\">&lt;UNKNOWN IDENTITY></string>\n  368      <string name=\"main_fragment_subtitle_user_identity\">Keep track of users</string>\n  369:     <string name=\"main_fragment_title_nosql_database\">NoSQL Database</string>\n  370      <string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string>\n  371      <string name=\"main_fragment_title_nosql_select_table\">NoSQL Demo: Select Table</string>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merger.xml:\n 1543          <attr format=\"reference\" name=\"metaButtonBarStyle\"/>\n 1544          <attr format=\"reference\" name=\"metaButtonBarButtonStyle\"/>\n 1545:     </declare-styleable></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\colors.xml\" qualifiers=\"\"><color name=\"top_bar_background\">#F58535</color><color name=\"dark_content_text\">#333333</color><color name=\"black_overlay\">#66000000</color><color name=\"splash_background\">#FFFFFF</color><color name=\"nav_drawer_no_user_background\">#AAAAAA</color><color name=\"main_background\">#FFFFFF</color><color name=\"nav_drawer_background\">#FFFFFF</color><color name=\"instructions_list_border_color\">#FFDDDDDD</color><color name=\"splash_text\">#F58535</color><color name=\"nav_drawer_top_background\">#CCCCCC</color></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\dimens.xml\" qualifiers=\"\"><dimen name=\"demo_mobile_analytics_button_text_size\">12sp</dimen></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\ids.xml\" qualifiers=\"\"><item name=\"nosql_context_menu_entry_delete\" type=\"id\"/><item name=\"nosql_context_menu_entry_update\" type=\"id\"/></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\strings.xml\" qualifiers=\"\"><string name=\"main_fragment_title_nosql_database\">NoSQL Database</string><string name=\"nosql_select_table_item_partition_key_text\">Partition Key</string><string name=\"feature_sign_in_title\">User Sign-in</string><string name=\"user_id\">USER IDENTIFIER</string><string name=\"feature_sign_in_overview\">Whether your users sign in or not, the User sign-in feature configures Amazon Cognito to uniquely identify the user and provide your app the appropriate credentials to access your AWS resources.</string><string name=\"feature_sign_in_powered_by\">Powered by Amazon Cognito</string><string name=\"feature_sign_in_subtitle\">Let your users sign in with public identity providers or your own identity system.</string><string name=\"nosql_dialog_ok_text\">OK</string><string name=\"nosql_dialog_message_scan_warning_text\">This operation scans the entire table and should not generally be used in a production app.</string><string name=\"identity_demo_dialog_dismiss_text\">DISMISS</string><string name=\"nosql_operation_title_query_by_partition_and_filter_text\">Query by Partition Key and Filter</string><string name=\"nosql_operation_title_index_query_by_partition_text\">Query by Partition Key</string><string name=\"nosql_dialog_message_pending_results_text\">Waiting for the response to load the results.</string><string name=\"fragment_demo_instruction_description_header\">Sample App Features</string><string name=\"nosql_dialog_title_remove_confirmation\">Confirm Removal of Sample Items</string><string name=\"nosql_operation_example_scan_with_filter\">Find all items with \\'%1$s\\' > \\'%2$s\\'.</string><string name=\"fragment_demo_instruction_overview_header\">Overview</string><string name=\"nosql_select_table_item_sort_key_text\">Sort Key</string><string name=\"nosql_operation_title_query_by_partition_text\">Query by Partition Key</string><string name=\"feature_sign_in_demo_button\">Demo User Identity</string><string name=\"nosql_operation_header_primary_queries\">Primary Index Queries</string><string name=\"nosql_operation_header_scan\">Scan</string><string name=\"nosql_operation_example_index_query_by_partition_and_sort_condition_text\">Find all items with %1$s = \\'%2$s\\' and %3$s > \\'%4$s\\'.</string><string name=\"nosql_operation_title_scan_without_filter\">Scan</string><string name=\"nosql_context_menu_title_for_results_text\">Update or Delete Item</string><string name=\"feature_nosql_database_overview\">Store data in the cloud.</string><string name=\"nosql_dialog_title_no_results_text\">No Matching Items Found</string><string name=\"feature_nosql_database_title\">NoSQL Database</string><string name=\"nosql_dialog_title_failed_update_item_text\">Update Item Failed</string><string name=\"title_activity_main\">@string/app_name</string><string name=\"nosql_dialog_title_confirm_update_item_text\">Confirm Update</string><string name=\"identity_demo_textview_userid_description\">User\\'s unique identifier</string><string name=\"nosql_select_table_index_count_text\">Indexes</string><string name=\"identity_demo_error_message_failed_get_identity\">Could not retrieve the user identity:\\u0020</string><string name=\"nosql_remove_sample_data_button_text\">REMOVE SAMPLE DATA</string><string name=\"nosql_dialog_message_confirm_update_item_text\">Are you sure you want to update the selected item?</string><string name=\"nosql_operation_example_index_query_by_partition_sort_condition_and_filter_text\">Find all items with %1$s = \\'%2$s\\', %3$s &lt; \\'%4$s\\', and %5$s > \\'%6$s\\'.</string><string name=\"nosql_operation_title_index_query_by_partition_and_sort_condition_text\">Query by Partition Key and Sort Condition</string><string name=\"nosql_operation_title_index_query_by_partition_and_filter_text\">Query by Partition Key and Filter</string><string name=\"identity_demo_unknown_identity_text\">&lt;UNKNOWN IDENTITY></string><string name=\"nosql_operation_example_query_by_partition_and_filter_text\">Find all items with %1$s = \\'%2$s\\' and %3$s > \\'%4$s\\'.</string><string name=\"main_fragment_subtitle_user_identity\">Keep track of users</string><string name=\"feature_nosql_database_demo_button\">Demo NoSQL Database</string><string name=\"nosql_operation_example_query_by_partition_and_sort_condition_text\">Find all items with %1$s = \\'%2$s\\' and %3$s &lt; \\'%4$s\\'.</string><string name=\"button_text_sign_in\">SIGN IN</string><string name=\"nosql_context_menu_entry_update_item_text\">Update Item</string><string name=\"nosql_dialog_message_removed_sample_data_text\">All Sample Items have been removed from your table.</string><string name=\"nosql_dialog_message_added_sample_data_text\">20 Sample Items with random data were added to your table.</string><string name=\"nosql_operation_example_get_by_partition_and_sort_text\">Find Item with %1$s = \\'%2$s\\' and %3$s = \\'%4$s\\'.</string><string name=\"main_nav_menu_item_home\">Home</string><string name=\"nosql_dialog_title_failed_loading_more_results\">Failed Loading More Results</string><string name=\"feature_nosql_database_powered_by\">Powered by Amazon DynamoDB</string><string name=\"nosql_dialog_title_failed_operation_text\">Operation Failed</string><string name=\"nosql_dialog_title_removed_sample_data_text\">Removed Sample Data</string><string name=\"feature_sign_in_description\">The Sample App demonstrates assignment of a unique identifier for the user, the Amazon Cognito User ID. If optional or mandatory User Sign-in has been enabled in your project, then the Sample App also includes a sign-in screen, with a button for each configured sign-in provider.</string><string name=\"nosql_operation_title_query_by_partition_and_sort_condition_text\">Query by Partition Key and Sort Condition</string><string name=\"nosql_operation_title_query_by_partition_sort_condition_and_filter_text\">Query by Partition Key, Sort Condition, and Filter</string><string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string><string name=\"unknown_user\">Guest User</string><string name=\"nosql_dialog_title_scan_warning_text\">WARNING: Scan is Expensive</string><string name=\"identity_demo_error_dialog_title\">Failed Identity Retrieval</string><string name=\"main_fragment_title_nosql_select_table\">NoSQL Demo: Select Table</string><string name=\"nosql_dialog_title_pending_results_text\">Please wait…</string><string name=\"nosql_operation_example_index_query_by_partition_and_filter_text\">Find all items with %1$s = \\'%2$s\\' and %3$s > \\'%4$s\\'.</string><string name=\"nosql_dialog_message_no_results_text\">No items match your criteria. Insert more sample data and try again.</string><string name=\"nosql_context_menu_entry_delete_item_text\">Delete Item</string><string name=\"nosql_dialog_message_remove_confirmation\">This will remove all your sample items.  Are you sure?</string><string name=\"title_activity_item_list\">Item List</string><string name=\"main_fragment_title_user_identity\">User Identity</string><string name=\"nosql_dialog_title_failed_delete_item_text\">Delete Item Failed</string><string name=\"nosql_operation_example_get_by_partition_text\">Find Item with %1$s = \\'%2$s\\'.</string><string name=\"nosql_operation_example_query_by_partition_sort_condition_and_filter_text\">Find all items with %1$s = \\'%2$s\\', %3$s &lt; \\'%4$s\\', and %5$s > \\'%6$s\\'.</string><string name=\"nosql_insert_sample_data_button_text\">INSERT SAMPLE DATA</string><string name=\"nosql_operation_header_secondary_queries\">Secondary Index Queries (%s)</string><string name=\"nosql_operation_example_scan_with_filter_on_partition_and_sort\">Find all items with \\'%1$s\\' beginning with \\'%2$s\\' and \\'%3$s\\' beginning with \\'%4$s\\'.</string><string name=\"identity_demo_text_view_description\">Displays the user identity.</string><string name=\"app_name\">RulerLess</string><string name=\"feature_nosql_database_subtitle\">Store data in the cloud.</string><string name=\"nosql_operation_header_get\">Get</string><string name=\"nosql_operation_get_by_partition_text\">Get Item</string><string name=\"nosql_dialog_title_confirm_delete_item_text\">Confirm Delete</string><string name=\"nosql_operation_get_by_partition_and_sort_text\">Get Item</string><string name=\"button_text_sign_out\">SIGN OUT</string><string name=\"title_activity_item_detail\">Item Detail</string><string name=\"nosql_operation_example_scan_without_filter\">Show all items in the table.</string><string name=\"nosql_operation_example_scan_with_filter_on_partition\">Find all items with \\'%1$s\\' beginning with \\'%2$s\\'</string><string name=\"nosql_database_table_item_creation_date_text\">Created %s</string><string name=\"nosql_operation_title_scan_with_filter\">Scan with Filter</string><string name=\"nosql_dialog_message_confirm_delete_item_text\">Are you sure you want to delete the selected item?</string><string name=\"feature_nosql_database_description\">The Sample App demonstrates how to access your configured Amazon DynamoDB NoSQL database tables. Select your table, insert sample data, and perform queries by choosing from a list of examples. Hold down an item in query results to update or delete the item. When you\\'re done with the demo, you can remove the sample data from your table.</string><string name=\"nosql_dialog_title_added_sample_data_text\">Added Sample Data</string><string name=\"nosql_operation_example_index_query_by_partition_text\">Find all items with %1$s = \\'%2$s\\'.</string><string name=\"nosql_operation_example_query_by_partition_text\">Find all items with %1$s = \\'%2$s\\'.</string><string name=\"identity_demo_textview_username_description\">User\\'s name</string><string name=\"nosql_operation_title_index_query_by_partition_sort_condition_and_filter_text\">Query by Partition Key, Sort Condition, and Filter</string><string name=\"nosql_dialog_title_failed_dynamodb_describe_table_text\">Failed retrieving schema for table \\'%s\\'.</string></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\styles.xml\" qualifiers=\"\"><style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.NoActionBar\">\n 1546          \n 1547      </style><style name=\"ButtonBarButton\"/><style name=\"ButtonBar\">\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\packageDebug\\zip-cache\\3vp3ESafQp5hJlNtlwWVKt2aSso=:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\packageInstantRunResourcesDebug\\zip-cache\\3vp3ESafQp5hJlNtlwWVKt2aSso=:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\instant-run-resources\\resources-debug.ir.ap_:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml:\n  345      <string name=\"button_text_sign_in\">SIGN IN</string>\n  346      <string name=\"button_text_sign_out\">SIGN OUT</string>\n  347:     <string name=\"feature_nosql_database_demo_button\">Demo NoSQL Database</string>\n  348:     <string name=\"feature_nosql_database_description\">The Sample App demonstrates how to access your configured Amazon DynamoDB NoSQL database tables. Select your table, insert sample data, and perform queries by choosing from a list of examples. Hold down an item in query results to update or delete the item. When you\\'re done with the demo, you can remove the sample data from your table.</string>\n  349      <string name=\"feature_nosql_database_overview\">Store data in the cloud.</string>\n  350      <string name=\"feature_nosql_database_powered_by\">Powered by Amazon DynamoDB</string>\n  351      <string name=\"feature_nosql_database_subtitle\">Store data in the cloud.</string>\n  352:     <string name=\"feature_nosql_database_title\">NoSQL Database</string>\n  353      <string name=\"feature_sign_in_demo_button\">Demo User Identity</string>\n  354      <string name=\"feature_sign_in_description\">The Sample App demonstrates assignment of a unique identifier for the user, the Amazon Cognito User ID. If optional or mandatory User Sign-in has been enabled in your project, then the Sample App also includes a sign-in screen, with a button for each configured sign-in provider.</string>\n  ...\n  367      <string name=\"identity_demo_unknown_identity_text\">&lt;UNKNOWN IDENTITY></string>\n  368      <string name=\"main_fragment_subtitle_user_identity\">Keep track of users</string>\n  369:     <string name=\"main_fragment_title_nosql_database\">NoSQL Database</string>\n  370      <string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string>\n  371      <string name=\"main_fragment_title_nosql_select_table\">NoSQL Demo: Select Table</string>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\resources-debug.ap_:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\outputs\\apk\\app-debug.apk:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\strings.xml:\n   37    <string name=\"identity_demo_error_dialog_title\">Failed Identity Retrieval</string>\n   38    <string name=\"identity_demo_error_message_failed_get_identity\">Could not retrieve the user identity:\\u0020</string>\n   39:   <string name=\"feature_nosql_database_title\">NoSQL Database</string>\n   40    <string name=\"feature_nosql_database_subtitle\">Store data in the cloud.</string>\n   41    <string name=\"feature_nosql_database_overview\">Store data in the cloud.</string>\n   42:   <string name=\"feature_nosql_database_description\">The Sample App demonstrates how to access your configured Amazon DynamoDB NoSQL database tables. Select your table, insert sample data, and perform queries by choosing from a list of examples. Hold down an item in query results to update or delete the item. When you\\'re done with the demo, you can remove the sample data from your table.</string>\n   43    <string name=\"feature_nosql_database_powered_by\">Powered by Amazon DynamoDB</string>\n   44  \n   45:   <string name=\"main_fragment_title_nosql_database\">NoSQL Database</string>\n   46:   <string name=\"feature_nosql_database_demo_button\">Demo NoSQL Database</string>\n   47  \n   48    <string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string>\n\n31 matches across 9 files\n\n\nSearching 2979 files for \"main_fragment_title_nosql_database\"\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\generated\\source\\r\\debug\\com\\mysampleapp\\R.java:\n 2073          public static final int identity_demo_unknown_identity_text=0x7f060038;\n 2074          public static final int main_fragment_subtitle_user_identity=0x7f060039;\n 2075:         public static final int main_fragment_title_nosql_database=0x7f06003a;\n 2076          public static final int main_fragment_title_nosql_select_operation=0x7f06003b;\n 2077          public static final int main_fragment_title_nosql_select_table=0x7f06003c;\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml:\n  367      <string name=\"identity_demo_unknown_identity_text\">&lt;UNKNOWN IDENTITY></string>\n  368      <string name=\"main_fragment_subtitle_user_identity\">Keep track of users</string>\n  369:     <string name=\"main_fragment_title_nosql_database\">NoSQL Database</string>\n  370      <string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string>\n  371      <string name=\"main_fragment_title_nosql_select_table\">NoSQL Demo: Select Table</string>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merger.xml:\n 1543          <attr format=\"reference\" name=\"metaButtonBarStyle\"/>\n 1544          <attr format=\"reference\" name=\"metaButtonBarButtonStyle\"/>\n 1545:     </declare-styleable></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\colors.xml\" qualifiers=\"\"><color name=\"top_bar_background\">#F58535</color><color name=\"dark_content_text\">#333333</color><color name=\"black_overlay\">#66000000</color><color name=\"splash_background\">#FFFFFF</color><color name=\"nav_drawer_no_user_background\">#AAAAAA</color><color name=\"main_background\">#FFFFFF</color><color name=\"nav_drawer_background\">#FFFFFF</color><color name=\"instructions_list_border_color\">#FFDDDDDD</color><color name=\"splash_text\">#F58535</color><color name=\"nav_drawer_top_background\">#CCCCCC</color></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\dimens.xml\" qualifiers=\"\"><dimen name=\"demo_mobile_analytics_button_text_size\">12sp</dimen></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\ids.xml\" qualifiers=\"\"><item name=\"nosql_context_menu_entry_delete\" type=\"id\"/><item name=\"nosql_context_menu_entry_update\" type=\"id\"/></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\strings.xml\" qualifiers=\"\"><string name=\"main_fragment_title_nosql_database\">NoSQL Database</string><string name=\"nosql_select_table_item_partition_key_text\">Partition Key</string><string name=\"feature_sign_in_title\">User Sign-in</string><string name=\"user_id\">USER IDENTIFIER</string><string name=\"feature_sign_in_overview\">Whether your users sign in or not, the User sign-in feature configures Amazon Cognito to uniquely identify the user and provide your app the appropriate credentials to access your AWS resources.</string><string name=\"feature_sign_in_powered_by\">Powered by Amazon Cognito</string><string name=\"feature_sign_in_subtitle\">Let your users sign in with public identity providers or your own identity system.</string><string name=\"nosql_dialog_ok_text\">OK</string><string name=\"nosql_dialog_message_scan_warning_text\">This operation scans the entire table and should not generally be used in a production app.</string><string name=\"identity_demo_dialog_dismiss_text\">DISMISS</string><string name=\"nosql_operation_title_query_by_partition_and_filter_text\">Query by Partition Key and Filter</string><string name=\"nosql_operation_title_index_query_by_partition_text\">Query by Partition Key</string><string name=\"nosql_dialog_message_pending_results_text\">Waiting for the response to load the results.</string><string name=\"fragment_demo_instruction_description_header\">Sample App Features</string><string name=\"nosql_dialog_title_remove_confirmation\">Confirm Removal of Sample Items</string><string name=\"nosql_operation_example_scan_with_filter\">Find all items with \\'%1$s\\' > \\'%2$s\\'.</string><string name=\"fragment_demo_instruction_overview_header\">Overview</string><string name=\"nosql_select_table_item_sort_key_text\">Sort Key</string><string name=\"nosql_operation_title_query_by_partition_text\">Query by Partition Key</string><string name=\"feature_sign_in_demo_button\">Demo User Identity</string><string name=\"nosql_operation_header_primary_queries\">Primary Index Queries</string><string name=\"nosql_operation_header_scan\">Scan</string><string name=\"nosql_operation_example_index_query_by_partition_and_sort_condition_text\">Find all items with %1$s = \\'%2$s\\' and %3$s > \\'%4$s\\'.</string><string name=\"nosql_operation_title_scan_without_filter\">Scan</string><string name=\"nosql_context_menu_title_for_results_text\">Update or Delete Item</string><string name=\"feature_nosql_database_overview\">Store data in the cloud.</string><string name=\"nosql_dialog_title_no_results_text\">No Matching Items Found</string><string name=\"feature_nosql_database_title\">NoSQL Database</string><string name=\"nosql_dialog_title_failed_update_item_text\">Update Item Failed</string><string name=\"title_activity_main\">@string/app_name</string><string name=\"nosql_dialog_title_confirm_update_item_text\">Confirm Update</string><string name=\"identity_demo_textview_userid_description\">User\\'s unique identifier</string><string name=\"nosql_select_table_index_count_text\">Indexes</string><string name=\"identity_demo_error_message_failed_get_identity\">Could not retrieve the user identity:\\u0020</string><string name=\"nosql_remove_sample_data_button_text\">REMOVE SAMPLE DATA</string><string name=\"nosql_dialog_message_confirm_update_item_text\">Are you sure you want to update the selected item?</string><string name=\"nosql_operation_example_index_query_by_partition_sort_condition_and_filter_text\">Find all items with %1$s = \\'%2$s\\', %3$s &lt; \\'%4$s\\', and %5$s > \\'%6$s\\'.</string><string name=\"nosql_operation_title_index_query_by_partition_and_sort_condition_text\">Query by Partition Key and Sort Condition</string><string name=\"nosql_operation_title_index_query_by_partition_and_filter_text\">Query by Partition Key and Filter</string><string name=\"identity_demo_unknown_identity_text\">&lt;UNKNOWN IDENTITY></string><string name=\"nosql_operation_example_query_by_partition_and_filter_text\">Find all items with %1$s = \\'%2$s\\' and %3$s > \\'%4$s\\'.</string><string name=\"main_fragment_subtitle_user_identity\">Keep track of users</string><string name=\"feature_nosql_database_demo_button\">Demo NoSQL Database</string><string name=\"nosql_operation_example_query_by_partition_and_sort_condition_text\">Find all items with %1$s = \\'%2$s\\' and %3$s &lt; \\'%4$s\\'.</string><string name=\"button_text_sign_in\">SIGN IN</string><string name=\"nosql_context_menu_entry_update_item_text\">Update Item</string><string name=\"nosql_dialog_message_removed_sample_data_text\">All Sample Items have been removed from your table.</string><string name=\"nosql_dialog_message_added_sample_data_text\">20 Sample Items with random data were added to your table.</string><string name=\"nosql_operation_example_get_by_partition_and_sort_text\">Find Item with %1$s = \\'%2$s\\' and %3$s = \\'%4$s\\'.</string><string name=\"main_nav_menu_item_home\">Home</string><string name=\"nosql_dialog_title_failed_loading_more_results\">Failed Loading More Results</string><string name=\"feature_nosql_database_powered_by\">Powered by Amazon DynamoDB</string><string name=\"nosql_dialog_title_failed_operation_text\">Operation Failed</string><string name=\"nosql_dialog_title_removed_sample_data_text\">Removed Sample Data</string><string name=\"feature_sign_in_description\">The Sample App demonstrates assignment of a unique identifier for the user, the Amazon Cognito User ID. If optional or mandatory User Sign-in has been enabled in your project, then the Sample App also includes a sign-in screen, with a button for each configured sign-in provider.</string><string name=\"nosql_operation_title_query_by_partition_and_sort_condition_text\">Query by Partition Key and Sort Condition</string><string name=\"nosql_operation_title_query_by_partition_sort_condition_and_filter_text\">Query by Partition Key, Sort Condition, and Filter</string><string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string><string name=\"unknown_user\">Guest User</string><string name=\"nosql_dialog_title_scan_warning_text\">WARNING: Scan is Expensive</string><string name=\"identity_demo_error_dialog_title\">Failed Identity Retrieval</string><string name=\"main_fragment_title_nosql_select_table\">NoSQL Demo: Select Table</string><string name=\"nosql_dialog_title_pending_results_text\">Please wait…</string><string name=\"nosql_operation_example_index_query_by_partition_and_filter_text\">Find all items with %1$s = \\'%2$s\\' and %3$s > \\'%4$s\\'.</string><string name=\"nosql_dialog_message_no_results_text\">No items match your criteria. Insert more sample data and try again.</string><string name=\"nosql_context_menu_entry_delete_item_text\">Delete Item</string><string name=\"nosql_dialog_message_remove_confirmation\">This will remove all your sample items.  Are you sure?</string><string name=\"title_activity_item_list\">Item List</string><string name=\"main_fragment_title_user_identity\">User Identity</string><string name=\"nosql_dialog_title_failed_delete_item_text\">Delete Item Failed</string><string name=\"nosql_operation_example_get_by_partition_text\">Find Item with %1$s = \\'%2$s\\'.</string><string name=\"nosql_operation_example_query_by_partition_sort_condition_and_filter_text\">Find all items with %1$s = \\'%2$s\\', %3$s &lt; \\'%4$s\\', and %5$s > \\'%6$s\\'.</string><string name=\"nosql_insert_sample_data_button_text\">INSERT SAMPLE DATA</string><string name=\"nosql_operation_header_secondary_queries\">Secondary Index Queries (%s)</string><string name=\"nosql_operation_example_scan_with_filter_on_partition_and_sort\">Find all items with \\'%1$s\\' beginning with \\'%2$s\\' and \\'%3$s\\' beginning with \\'%4$s\\'.</string><string name=\"identity_demo_text_view_description\">Displays the user identity.</string><string name=\"app_name\">RulerLess</string><string name=\"feature_nosql_database_subtitle\">Store data in the cloud.</string><string name=\"nosql_operation_header_get\">Get</string><string name=\"nosql_operation_get_by_partition_text\">Get Item</string><string name=\"nosql_dialog_title_confirm_delete_item_text\">Confirm Delete</string><string name=\"nosql_operation_get_by_partition_and_sort_text\">Get Item</string><string name=\"button_text_sign_out\">SIGN OUT</string><string name=\"title_activity_item_detail\">Item Detail</string><string name=\"nosql_operation_example_scan_without_filter\">Show all items in the table.</string><string name=\"nosql_operation_example_scan_with_filter_on_partition\">Find all items with \\'%1$s\\' beginning with \\'%2$s\\'</string><string name=\"nosql_database_table_item_creation_date_text\">Created %s</string><string name=\"nosql_operation_title_scan_with_filter\">Scan with Filter</string><string name=\"nosql_dialog_message_confirm_delete_item_text\">Are you sure you want to delete the selected item?</string><string name=\"feature_nosql_database_description\">The Sample App demonstrates how to access your configured Amazon DynamoDB NoSQL database tables. Select your table, insert sample data, and perform queries by choosing from a list of examples. Hold down an item in query results to update or delete the item. When you\\'re done with the demo, you can remove the sample data from your table.</string><string name=\"nosql_dialog_title_added_sample_data_text\">Added Sample Data</string><string name=\"nosql_operation_example_index_query_by_partition_text\">Find all items with %1$s = \\'%2$s\\'.</string><string name=\"nosql_operation_example_query_by_partition_text\">Find all items with %1$s = \\'%2$s\\'.</string><string name=\"identity_demo_textview_username_description\">User\\'s name</string><string name=\"nosql_operation_title_index_query_by_partition_sort_condition_and_filter_text\">Query by Partition Key, Sort Condition, and Filter</string><string name=\"nosql_dialog_title_failed_dynamodb_describe_table_text\">Failed retrieving schema for table \\'%s\\'.</string></file><file path=\"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\styles.xml\" qualifiers=\"\"><style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.NoActionBar\">\n 1546          \n 1547      </style><style name=\"ButtonBarButton\"/><style name=\"ButtonBar\">\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\packageDebug\\zip-cache\\3vp3ESafQp5hJlNtlwWVKt2aSso=:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\incremental\\packageInstantRunResourcesDebug\\zip-cache\\3vp3ESafQp5hJlNtlwWVKt2aSso=:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\instant-run-resources\\resources-debug.ir.ap_:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml:\n  367      <string name=\"identity_demo_unknown_identity_text\">&lt;UNKNOWN IDENTITY></string>\n  368      <string name=\"main_fragment_subtitle_user_identity\">Keep track of users</string>\n  369:     <string name=\"main_fragment_title_nosql_database\">NoSQL Database</string>\n  370      <string name=\"main_fragment_title_nosql_select_operation\">NoSQL Demo: %s</string>\n  371      <string name=\"main_fragment_title_nosql_select_table\">NoSQL Demo: Select Table</string>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\resources-debug.ap_:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\symbols\\debug\\R.txt:\n  749  int string identity_demo_unknown_identity_text 0x7f060038\n  750  int string main_fragment_subtitle_user_identity 0x7f060039\n  751: int string main_fragment_title_nosql_database 0x7f06003a\n  752  int string main_fragment_title_nosql_select_operation 0x7f06003b\n  753  int string main_fragment_title_nosql_select_table 0x7f06003c\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\outputs\\apk\\app-debug.apk:\n    <binary>\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\java\\com\\mysampleapp\\demo\\DemoConfiguration.java:\n   25              R.string.feature_nosql_database_subtitle, R.string.feature_nosql_database_overview,\n   26              R.string.feature_nosql_database_description, R.string.feature_nosql_database_powered_by,\n   27:             new DemoItem(R.string.main_fragment_title_nosql_database, R.mipmap.database,\n   28                  R.string.feature_nosql_database_demo_button, NoSQLSelectTableDemoFragment.class));\n   29  \n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\res\\values\\strings.xml:\n   43    <string name=\"feature_nosql_database_powered_by\">Powered by Amazon DynamoDB</string>\n   44  \n   45:   <string name=\"main_fragment_title_nosql_database\">NoSQL Database</string>\n   46    <string name=\"feature_nosql_database_demo_button\">Demo NoSQL Database</string>\n   47  \n\n13 matches across 13 files\n\n\nSearching 2994 files for \"final Button insertSampleDataButton = (Button) fragmentView.findViewById(R.id.button_insert_sample_data)\"\n\nC:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\src\\main\\java\\com\\mysampleapp\\demo\\nosql\\NoSQLSelectOperationDemoFragment.java:\n  171          final double lat=0, lon=0, el=0;\n  172  \n  173:         final Button insertSampleDataButton = (Button) fragmentView.findViewById(R.id.button_insert_sample_data);\n  174          insertSampleDataButton.setOnClickListener(new View.OnClickListener() {\n  175              @Override\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 34241,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "MySampleApp/app/src/main/java/com/mysampleapp/demo/nosql/NoSQLSelectOperationDemoFragment.java",
+			"settings":
+			{
+				"buffer_size": 14198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package com.mysampleapp.demo.nosql;\n\nimport android.os.Bundle;\nimport android.support.design.widget.FloatingActionButton;\nimport android.support.design.widget.Snackbar;\nimport android.support.v7.app.AppCompatActivity;\nimport android.support.v7.widget.Toolbar;\nimport android.view.View;\nimport android.content.Context;\nimport android.util.Log;\nimport android.widget.EditText;\n\nimport com.amazonaws.AmazonClientException;\nimport com.amazonaws.mobile.AWSMobileClient;\nimport com.amazonaws.mobilehelper.util.ThreadUtils;\nimport com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBMapper;\nimport com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBQueryExpression;\nimport com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBScanExpression;\nimport com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.PaginatedQueryList;\nimport com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.PaginatedScanList;\nimport com.amazonaws.services.dynamodbv2.model.AttributeValue;\nimport com.amazonaws.services.dynamodbv2.model.ComparisonOperator;\nimport com.amazonaws.services.dynamodbv2.model.Condition;\nimport com.mysampleapp.R;\nimport com.amazonaws.models.nosql.LocationsDO;\n\nimport java.nio.ByteBuffer;\nimport java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.HashMap;\nimport java.util.Iterator;\nimport java.util.LinkedList;\nimport java.util.List;\nimport java.util.Map;\n//import com.amazon.mysampleapp.R;\n\nimport static com.mysampleapp.demo.nosql.DemoNoSQLTableBase.SAMPLE_DATA_ENTRIES_PER_INSERT;\n\npublic class Connect extends AppCompatActivity {\n\n    EditText userIdEdit;\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_connect);\n        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);\n        userIdEdit = (EditText) findViewById(R.id.editText);\n        setSupportActionBar(toolbar);\n\n        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);\n        fab.setOnClickListener(new View.OnClickListener() {\n            @Override\n            public void onClick(View view) {\n                Snackbar.make(view, \"Replace with your own action\", Snackbar.LENGTH_LONG)\n                        .setAction(\"Action\", null).show();\n            }\n        });\n    }\n\n    private static final String LOG_TAG = DemoNoSQLTableLocations.class.getSimpleName();\n\n    /**\n     * Inner classes use this value to determine how many results to retrieve per service call.\n     */\n    private static final int RESULTS_PER_RESULT_GROUP = 40;\n\n    /**\n     * Removing sample data removes the items in batches of the following size.\n     */\n    private static final int MAX_BATCH_SIZE_FOR_DELETE = 50;\n\n    /********* Primary Get Query Inner Classes *********/\n\n    public class DemoGetWithPartitionKey extends DemoNoSQLOperationBase {\n        private LocationsDO result;\n        private boolean resultRetrieved = true;\n\n        private DemoGetWithPartitionKey(final Context context) {\n            super(context.getString(R.string.nosql_operation_get_by_partition_text),\n                    String.format(context.getString(R.string.nosql_operation_example_get_by_partition_text),\n                            \"userId\", AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID()));\n        }\n\n        /* Blocks until result is retrieved, should be called in the background. */\n        @Override\n        public boolean executeOperation() throws AmazonClientException {\n            // Retrieve an item by passing the partition key using the object mapper.\n            result = mapper.load(LocationsDO.class, AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID());\n\n            if (result != null) {\n                resultRetrieved = false;\n                return true;\n            }\n            return false;\n        }\n\n        @Override\n        public List<DemoNoSQLResult> getNextResultGroup() {\n            if (resultRetrieved) {\n                return null;\n            }\n            final List<DemoNoSQLResult> results = new ArrayList<>();\n            results.add(new DemoNoSQLLocationsResult(result));\n            resultRetrieved = true;\n            return results;\n        }\n\n        @Override\n        public void resetResults() {\n            resultRetrieved = false;\n        }\n\n    }\n\n    /* ******** Secondary Named Index Query Inner Classes ******** */\n\n    /********* Scan Inner Classes *********/\n\n    public class DemoScanWithFilter extends DemoNoSQLOperationBase {\n\n        private PaginatedScanList<LocationsDO> results;\n        private Iterator<LocationsDO> resultsIterator;\n\n        DemoScanWithFilter(final Context context) {\n            super(context.getString(R.string.nosql_operation_title_scan_with_filter),\n                    String.format(context.getString(R.string.nosql_operation_example_scan_with_filter),\n                            \"elevation\", \"1111500000\"));\n        }\n\n        @Override\n        public boolean executeOperation() {\n            // Use an expression names Map to avoid the potential for attribute names\n            // colliding with DynamoDB reserved words.\n            final Map<String, String> filterExpressionAttributeNames = new HashMap<>();\n            filterExpressionAttributeNames.put(\"#elevation\", \"elevation\");\n\n            final Map<String, AttributeValue> filterExpressionAttributeValues = new HashMap<>();\n            filterExpressionAttributeValues.put(\":Minelevation\",\n                    new AttributeValue().withN(\"1111500000\"));\n            final DynamoDBScanExpression scanExpression = new DynamoDBScanExpression()\n                    .withFilterExpression(\"#elevation > :Minelevation\")\n                    .withExpressionAttributeNames(filterExpressionAttributeNames)\n                    .withExpressionAttributeValues(filterExpressionAttributeValues);\n\n            results = mapper.scan(LocationsDO.class, scanExpression);\n            if (results != null) {\n                resultsIterator = results.iterator();\n                if (resultsIterator.hasNext()) {\n                    return true;\n                }\n            }\n            return false;\n        }\n\n        @Override\n        public List<DemoNoSQLResult> getNextResultGroup() {\n            return getNextResultsGroupFromIterator(resultsIterator);\n        }\n\n        @Override\n        public boolean isScan() {\n            return true;\n        }\n\n        @Override\n        public void resetResults() {\n            resultsIterator = results.iterator();\n        }\n    }\n\n    public class DemoScanWithoutFilter extends DemoNoSQLOperationBase {\n\n        private PaginatedScanList<LocationsDO> results;\n        private Iterator<LocationsDO> resultsIterator;\n\n        DemoScanWithoutFilter(final Context context) {\n            super(context.getString(R.string.nosql_operation_title_scan_without_filter),\n                    context.getString(R.string.nosql_operation_example_scan_without_filter));\n        }\n\n        @Override\n        public boolean executeOperation() {\n            final DynamoDBScanExpression scanExpression = new DynamoDBScanExpression();\n            results = mapper.scan(LocationsDO.class, scanExpression);\n            if (results != null) {\n                resultsIterator = results.iterator();\n                if (resultsIterator.hasNext()) {\n                    return true;\n                }\n            }\n            return false;\n        }\n\n        @Override\n        public List<DemoNoSQLResult> getNextResultGroup() {\n            return getNextResultsGroupFromIterator(resultsIterator);\n        }\n\n        @Override\n        public boolean isScan() {\n            return true;\n        }\n\n        @Override\n        public void resetResults() {\n            resultsIterator = results.iterator();\n        }\n    }\n\n    /**\n     * Helper Method to handle retrieving the next group of query results.\n     *\n     * @param resultsIterator the iterator for all the results (makes a new service call for each result group).\n     * @return the next list of results.\n     */\n    private static List<DemoNoSQLResult> getNextResultsGroupFromIterator(final Iterator<LocationsDO> resultsIterator) {\n        if (!resultsIterator.hasNext()) {\n            return null;\n        }\n        List<DemoNoSQLResult> resultGroup = new LinkedList<>();\n        int itemsRetrieved = 0;\n        do {\n            // Retrieve the item from the paginated results.\n            final LocationsDO item = resultsIterator.next();\n            // Add the item to a group of results that will be displayed later.\n            resultGroup.add(new DemoNoSQLLocationsResult(item));\n            itemsRetrieved++;\n        } while ((itemsRetrieved < RESULTS_PER_RESULT_GROUP) && resultsIterator.hasNext());\n        return resultGroup;\n    }\n\n    /**\n     * The DynamoDB object mapper for accessing DynamoDB.\n     */\n    private final DynamoDBMapper mapper;\n\n    public Connect() {\n        mapper = AWSMobileClient.defaultMobileClient().getDynamoDBMapper();\n    }\n\n//    @Override\n//    public String getTableName() {\n//        return \"Locations\";\n//    }\n//\n//    @Override\n//    public String getPartitionKeyName() {\n//        return \"Artist\";\n//    }\n//\n//    public String getPartitionKeyType() {\n//        return \"String\";\n//    }\n//\n//    @Override\n//    public String getSortKeyName() {\n//        return null;\n//    }\n//\n//    public String getSortKeyType() {\n//        return \"\";\n//    }\n//\n//    @Override\n//    public int getNumIndexes() {\n//        return 0;\n//    }\n    public void buttonClick(View view){\n        insertSample(userIdEdit.getText().toString(), 0, 0,0, \"hello\");\n    }\n\n    public void insertSample(String id, double lat, double lon, double el, String time) throws AmazonClientException {\n        Log.d(LOG_TAG, \"Inserting Sample data.\");\n        final LocationsDO firstItem = new LocationsDO();\n\n        firstItem.setUserId(AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID());\n        firstItem.setElevation(el);\n        firstItem.setLatitude(lat);\n        firstItem.setLongitude(lon);\n        firstItem.setTime(time);\n        firstItem.setUsername(id);\n        AmazonClientException lastException = null;\n\n        try {\n            mapper.save(firstItem);\n        } catch (final AmazonClientException ex) {\n            Log.e(LOG_TAG, \"Failed saving item : \" + ex.getMessage(), ex);\n            lastException = ex;\n        }\n\n        final LocationsDO[] items = new LocationsDO[SAMPLE_DATA_ENTRIES_PER_INSERT - 1];\n        for (int count = 0; count < SAMPLE_DATA_ENTRIES_PER_INSERT - 1; count++) {\n            final LocationsDO item = new LocationsDO();\n            item.setUserId(DemoSampleDataGenerator.getRandomSampleString(\"userId\"));\n            item.setElevation(DemoSampleDataGenerator.getRandomSampleNumber());\n            item.setLatitude(DemoSampleDataGenerator.getRandomSampleNumber());\n            item.setLongitude(DemoSampleDataGenerator.getRandomSampleNumber());\n            item.setTime(DemoSampleDataGenerator.getRandomSampleString(\"time\"));\n            item.setUsername(DemoSampleDataGenerator.getRandomSampleString(\"username\"));\n\n            items[count] = item;\n        }\n        try {\n            mapper.batchSave(Arrays.asList(items));\n        } catch (final AmazonClientException ex) {\n            Log.e(LOG_TAG, \"Failed saving item batch : \" + ex.getMessage(), ex);\n            lastException = ex;\n        }\n\n        if (lastException != null) {\n            // Re-throw the last exception encountered to alert the user.\n            throw lastException;\n        }\n    }\n\n    public void removeSample() throws AmazonClientException {\n\n        final LocationsDO itemToFind = new LocationsDO();\n        itemToFind.setUserId(AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID());\n\n        final DynamoDBQueryExpression<LocationsDO> queryExpression = new DynamoDBQueryExpression<LocationsDO>()\n                .withHashKeyValues(itemToFind)\n                .withConsistentRead(false)\n                .withLimit(MAX_BATCH_SIZE_FOR_DELETE);\n\n        final PaginatedQueryList<LocationsDO> results = mapper.query(LocationsDO.class, queryExpression);\n\n        Iterator<LocationsDO> resultsIterator = results.iterator();\n\n        AmazonClientException lastException = null;\n\n        if (resultsIterator.hasNext()) {\n            final LocationsDO item = resultsIterator.next();\n\n            // Demonstrate deleting a single item.\n            try {\n                mapper.delete(item);\n            } catch (final AmazonClientException ex) {\n                Log.e(LOG_TAG, \"Failed deleting item : \" + ex.getMessage(), ex);\n                lastException = ex;\n            }\n        }\n\n        final List<LocationsDO> batchOfItems = new LinkedList<LocationsDO>();\n        while (resultsIterator.hasNext()) {\n            // Build a batch of books to delete.\n            for (int index = 0; index < MAX_BATCH_SIZE_FOR_DELETE && resultsIterator.hasNext(); index++) {\n                batchOfItems.add(resultsIterator.next());\n            }\n            try {\n                // Delete a batch of items.\n                mapper.batchDelete(batchOfItems);\n            } catch (final AmazonClientException ex) {\n                Log.e(LOG_TAG, \"Failed deleting item batch : \" + ex.getMessage(), ex);\n                lastException = ex;\n            }\n\n            // clear the list for re-use.\n            batchOfItems.clear();\n        }\n\n\n        if (lastException != null) {\n            // Re-throw the last exception encountered to alert the user.\n            // The logs contain all the exceptions that occurred during attempted delete.\n            throw lastException;\n        }\n    }\n}\n//    private List<DemoNoSQLOperationListItem> getSupportedDemoOperations(final Context context) {\n//        List<DemoNoSQLOperationListItem> noSQLOperationsList = new ArrayList<DemoNoSQLOperationListItem>();\n//        noSQLOperationsList.add(new DemoNoSQLTableLocations.DemoGetWithPartitionKey(context));\n//\n//        noSQLOperationsList.add(new DemoNoSQLOperationListHeader(\n//                context.getString(R.string.nosql_operation_header_scan)));\n//        noSQLOperationsList.add(new DemoNoSQLTableLocations.DemoScanWithoutFilter(context));\n//        noSQLOperationsList.add(new DemoNoSQLTableLocations.DemoScanWithFilter(context));\n//        return noSQLOperationsList;\n//    }\n\n//    @Override\n//    public void getSupportedDemoOperations(final Context context,\n//                                           final DemoNoSQLTableBase.SupportedDemoOperationsHandler opsHandler) {\n//        new Thread(new Runnable() {\n//            @Override\n//            public void run() {\n//                final List<DemoNoSQLOperationListItem> supportedOperations = getSupportedDemoOperations(context);\n//                ThreadUtils.runOnUiThread(new Runnable() {\n//                    @Override\n//                    public void run() {\n//                        opsHandler.onSupportedOperationsReceived(supportedOperations);\n//                    }\n//                });\n//            }\n//        }).start();\n//    }\n",
+			"file": "/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new - Copy/MySampleApp/app/src/main/java/com/mysampleapp/demo/nosql/Connect.java",
+			"file_size": 15568,
+			"file_write_time": 131401376771889471,
+			"settings":
+			{
+				"buffer_size": 15172,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 213.0,
+		"history":
+		[
+			"latex",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/.idea",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/app",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/app/src",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/app/src/main",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/app/src/main/java",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/app/src/main/java/com",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new/MySampleApp/app/src/main/java/com/mysampleapp"
+	],
+	"file_history":
+	[
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/timer.h",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/timer.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/header_utils.h",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/header_utils.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/client.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/test.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/server.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/README.md",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/Vagrantfile",
+		"/C/Users/edavi/Downloads/projectclient.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/client.copy.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/spring17-project1/server.cpp",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/Makefile",
+		"/C/Users/edavi/OneDrive/School/Spring 2017/CS118/cs118-proj2/confundo.lua"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"final Button insertSampleDataButton = (Button) fragmentView.findViewById(R.id.button_insert_sample_data)",
+			"insert",
+			"EditText",
+			"main_fragment_title_nosql_database",
+			"NoSQL Database",
+			"ten_timeout",
+			"sendDataNew",
+			"%",
+			"mod",
+			"Rec",
+			"//",
+			"timeout",
+			"timer",
+			"0.2",
+			"timeout",
+			"Rec",
+			"header.",
+			"begin()",
+			"sendDataNew",
+			"packet.nbyte",
+			"Seek",
+			"ackd_",
+			"seek",
+			"sendto",
+			"serverLen",
+			"sockaddr",
+			"writefds",
+			"writefd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "MySampleApp/app/src/main/java/com/mysampleapp/MainActivity.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34241,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										397,
+										411
+									],
+									[
+										556,
+										570
+									],
+									[
+										1165,
+										1179
+									],
+									[
+										1866,
+										1880
+									],
+									[
+										3695,
+										3709
+									],
+									[
+										6191,
+										6205
+									],
+									[
+										7705,
+										7719
+									],
+									[
+										12398,
+										12412
+									],
+									[
+										14490,
+										14504
+									],
+									[
+										14649,
+										14663
+									],
+									[
+										15258,
+										15272
+									],
+									[
+										15959,
+										15973
+									],
+									[
+										16819,
+										16833
+									],
+									[
+										17156,
+										17170
+									],
+									[
+										17591,
+										17605
+									],
+									[
+										17679,
+										17693
+									],
+									[
+										18241,
+										18275
+									],
+									[
+										18843,
+										18877
+									],
+									[
+										20672,
+										20706
+									],
+									[
+										31519,
+										31553
+									],
+									[
+										32177,
+										32211
+									],
+									[
+										33047,
+										33081
+									],
+									[
+										33453,
+										33487
+									],
+									[
+										34001,
+										34105
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								33802,
+								33802
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "MySampleApp/app/src/main/java/com/mysampleapp/demo/nosql/NoSQLSelectOperationDemoFragment.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8043,
+								8043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 4423.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/edavi/OneDrive/School/Spring 2017/M117/RulerLess.new - Copy/MySampleApp/app/src/main/java/com/mysampleapp/demo/nosql/Connect.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9345,
+								9345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "RulerLess.new.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 430.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

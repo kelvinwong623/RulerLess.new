@@ -25,12 +25,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.support.multidex.MultiDexApplication;
 
+import com.amazonaws.AmazonClientException;
 import com.amazonaws.mobile.AWSMobileClient;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBMapper;
 import com.amazonaws.mobilehelper.auth.IdentityManager;
-import com.mysampleapp.demo.DemoConfiguration;
-import com.mysampleapp.demo.HomeDemoFragment;
 import com.mysampleapp.navigation.NavigationDrawer;
+
+import com.amazonaws.models.nosql.LocationsDO;
+
+import java.util.UUID;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     /** Class name for log messages. */
@@ -88,14 +94,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // Add navigation drawer menu items.
         // Home isn't a demo, but is fake as a demo.
-        DemoConfiguration.DemoFeature home = new DemoConfiguration.DemoFeature();
-        home.iconResId = R.mipmap.icon_home;
-        home.titleResId = R.string.main_nav_menu_item_home;
-        navigationDrawer.addDemoFeatureToMenu(home);
+//        DemoConfiguration.DemoFeature home = new DemoConfiguration.DemoFeature();
+//        home.iconResId = R.mipmap.icon_home;
+//        home.titleResId = R.string.main_nav_menu_item_home;
+//        navigationDrawer.addDemoFeatureToMenu(home);
 
-        for (DemoConfiguration.DemoFeature demoFeature : DemoConfiguration.getDemoFeatureList()) {
-            navigationDrawer.addDemoFeatureToMenu(demoFeature);
-        }
+//        for (DemoConfiguration.DemoFeature demoFeature : DemoConfiguration.getDemoFeatureList()) {
+//            navigationDrawer.addDemoFeatureToMenu(demoFeature);
+//        }
 
         if (savedInstanceState == null) {
             // Add the home fragment to be displayed initially.
@@ -117,11 +123,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Obtain a reference to the identity manager.
         identityManager = awsMobileClient.getIdentityManager();
 
+
         setContentView(R.layout.activity_main);
 
         setupToolbar(savedInstanceState);
 
         setupNavigationMenu(savedInstanceState);
+
     }
 
     @Override
@@ -166,24 +174,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if (fragmentManager.getBackStackEntryCount() == 0) {
-            if (fragmentManager.findFragmentByTag(HomeDemoFragment.class.getSimpleName()) == null) {
-                final Class fragmentClass = HomeDemoFragment.class;
-                // if we aren't on the home fragment, navigate home.
-                final Fragment fragment = Fragment.instantiate(this, fragmentClass.getName());
-
-                fragmentManager
-                    .beginTransaction()
-                    .replace(R.id.main_fragment_container, fragment, fragmentClass.getSimpleName())
-                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-                    .commit();
-
-                // Set the title for the fragment.
-                final ActionBar actionBar = this.getSupportActionBar();
-                if (actionBar != null) {
-                    actionBar.setTitle(getString(R.string.app_name));
-                }
-                return;
-            }
+//            if (fragmentManager.findFragmentByTag(HomeDemoFragment.class.getSimpleName()) == null) {
+//                final Class fragmentClass = HomeDemoFragment.class;
+//                // if we aren't on the home fragment, navigate home.
+//                final Fragment fragment = Fragment.instantiate(this, fragmentClass.getName());
+//
+//                fragmentManager
+//                    .beginTransaction()
+//                    .replace(R.id.main_fragment_container, fragment, fragmentClass.getSimpleName())
+//                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+//                    .commit();
+//
+//                // Set the title for the fragment.
+//                final ActionBar actionBar = this.getSupportActionBar();
+//                if (actionBar != null) {
+//                    actionBar.setTitle(getString(R.string.app_name));
+//                }
+//                return;
+//            }
         }
         super.onBackPressed();
     }
@@ -204,4 +212,43 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public Bundle getFragmentBundle() {
         return this.fragmentBundle;
     }
+
+    private void insertData(final String username, final String time, final double lat, final double lon, final double el) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    // Fetch the default configured DynamoDB ObjectMapper
+                    final DynamoDBMapper dynamoDBMapper = AWSMobileClient.defaultMobileClient().getDynamoDBMapper();
+                    final LocationsDO item = new LocationsDO(); // Initialize the location Object
+
+                    // The userId has to be set to user's Cognito Identity Id for private / protected tables.
+                    // User's Cognito Identity Id can be fetched by using:
+                    // AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID()
+                    item.setUserId(AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID());
+                    item.setUsername(username);
+                    item.setElevation(el);
+                    item.setLatitude(lat);
+                    item.setLongitude(lon);
+                    item.setTime(time); // GMT: Fri, 19 Aug 2016 21:53:47 GMT
+                    AmazonClientException lastException = null;
+
+                    try {
+                        dynamoDBMapper.save(item);
+                    } catch (final AmazonClientException ex) {
+                        Log.e(LOG_TAG, "Failed saving item : " + ex.getMessage(), ex);
+                        lastException = ex;
+                    }
+
+                    if (lastException != null) {
+                        // Re-throw the last exception encountered to alert the user.
+                        throw lastException;
+                    }
+                } catch (final AmazonClientException ex) {
+                    return;
+                }
+            }
+        }).start();
+    }
+
 }

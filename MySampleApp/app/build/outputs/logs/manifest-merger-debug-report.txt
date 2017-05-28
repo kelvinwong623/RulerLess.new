@@ -37,6 +37,7 @@ MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\edavi\.andr
 MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.0] C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\edavi\.android\build-cache\25275752f15fea9727b5797207e6ef04957daa74\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\edavi\OneDrive\School\Spring 2017\M117\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:26:9-41
 	android:supportsRtl
@@ -88,6 +89,7 @@ MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\edavi\.andr
 MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\edavi\.android\build-cache\70ac0b329b52e74c809e50495e3dacfc80a5ae13\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\edavi\.android\build-cache\ccefc911e098c0c3479be72b79c75496e8e59b34\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.0] C:\Users\edavi\.android\build-cache\50573b5d2f59ec4d146f23b0b44906d03bd85f92\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\edavi\.android\build-cache\25275752f15fea9727b5797207e6ef04957daa74\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\edavi\.android\build-cache\18919b2293743fbced774d965b90bcbc2ea0ed79\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

@@ -11,7 +11,10 @@ package com.mysampleapp;
 import android.support.multidex.MultiDexApplication;
 import android.util.Log;
 
+import com.amazonaws.AmazonClientException;
 import com.amazonaws.mobile.AWSMobileClient;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBMapper;
+import com.amazonaws.models.nosql.LocationsDO;
 
 /**
  * Application class responsible for initializing singletons and other common components.
@@ -31,5 +34,6 @@ public class Application extends MultiDexApplication {
         AWSMobileClient.initializeMobileClientIfNecessary(getApplicationContext());
 
         // ...Put any application-specific initialization logic here...
+
     }
 }
