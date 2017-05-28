@@ -39,6 +39,12 @@ import java.util.UUID;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    /** Username */
+    private final String m_username = "UNKNOWN";
+
+    /** User's GPS lon/lat/el. */
+    private final double m_lat=0, m_lon=0, m_el=0;
+
     /** Class name for log messages. */
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
@@ -129,6 +135,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setupToolbar(savedInstanceState);
 
         setupNavigationMenu(savedInstanceState);
+
+        // TODO: Change replace the time arguement with current time
+        insertData(m_username, "currentTime: TODO", m_lat, m_lon, m_el);
 
     }
 
@@ -249,6 +258,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }).start();
+    }
+    // TODO: List all recent items in database and display to user
+    public void displayAllUsers()
+    {
+        // attach method to button
+    }
+
+    // TODO: get gps corrdinates of current selected user
+    public void getGPS(String userId)
+    {
+
+    }
+
+    // TODO: obtain userId from username (query database)
+    public void getUserId(String username)
+    {
+
+    }
+
+    // TODO: onClick action for refresh, refreshes list of users and distance
+    public void refresh()
+    {
+
+    }
+
+    // TODO: get user's GPS coordinates (lat/lon/el)
+    public void getGPSCoord()
+    {
+
     }
 
 }

@@ -1,4 +1,4 @@
-#Sun May 28 09:28:34 PDT 2017
+#Sun May 28 09:50:40 PDT 2017
 file.9=C\:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\aws-android-sdk-ddb-2.4.2_c4bce5a21c8376fd6a4c8e89c6c9470ee539fb6e\\classes.dex
 base.10=C\:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f2913f01f459e7baf1e803639e483fb9e6569ac6
 file.8=C\:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.2.0_035a467594c345fc2e4a958c7e8fc8249af40c17\\classes.dex
