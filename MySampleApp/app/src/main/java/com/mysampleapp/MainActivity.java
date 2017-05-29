@@ -42,6 +42,8 @@ import com.amazonaws.models.nosql.LocationsDO;
 import android.os.Build;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -159,8 +161,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         setupNavigationMenu(savedInstanceState);
 
-        // TODO: Change replace the time arguement with current time
-        insertData(m_username, "currentTime: TODO", m_lat, m_lon, m_el);
+        insertData(m_username, getTimeStamp(), m_lat, m_lon, m_el);
 
         // Update activity_main
         editTextConnect = (EditText)findViewById(R.id.editText_Connect);
@@ -418,7 +419,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }).start();
         try {
-            TimeUnit.MILLISECONDS.sleep(700);
+            TimeUnit.MILLISECONDS.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -497,7 +498,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         editTextUsername = (EditText)findViewById(R.id.editText_Username);
         m_username = editTextUsername.getText().toString();
-        insertData(m_username, "current time", 0.0,0.0,0.0);
+        insertData(m_username, getTimeStamp(), 0.0,0.0,0.0);
     }
 
 
@@ -521,10 +522,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }).start();
         try {
-            TimeUnit.MILLISECONDS.sleep(700);
+            TimeUnit.MILLISECONDS.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * Returns current time in milliseconds
+     * @return String time
+     */
+    public String getTimeStamp()
+    {
+        // For epoch in milliseconds
+        //return ((Long)(System.currentTimeMillis()/1000)).toString();
+
+        // For readable timestamp
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss");
+        String time = simpleDateFormat.format(new Date());
+        return time;
     }
 
 }

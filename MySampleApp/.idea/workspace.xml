@@ -12,171 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4987c87-c324-432a-a29b-dc4044726690" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/bundles/debug/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/compat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/coreui/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/coreutils/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/fragment/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/graphics/drawable/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/graphics/drawable/animated/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/mediacompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v4/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/androidTest/debug/com/amazonaws/mobilehelper/test/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/compat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/coreui/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/coreutils/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/fragment/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/graphics/drawable/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/mediacompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v4/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/DefaultSignInResultHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager$AWSCredentialsProviderHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/IdentityProviderType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/SignInResultHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/SignInStateChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/StartupAuthErrorDetails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/StartupAuthResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/StartupAuthResultHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/signin/AuthException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/signin/CognitoAuthException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/signin/ProviderAuthException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/signin/SignInProviderResultHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/signin/buttons/SignInButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/signin/buttons/SignInButtonAttributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/user/AbstractIdentityProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/user/IdentityProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/user/IdentityProfileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/auth/user/ProfileRetrievalException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/config/AWSMobileHelperConfiguration$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/config/AWSMobileHelperConfiguration$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/config/AWSMobileHelperConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/util/ThreadUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/classes/debug/com/amazonaws/mobilehelper/util/ViewHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/android/support/multidex/instrumentation/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/amazon/mysampleapp/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_AWSMobileHelper_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_AWSMobileHelper_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_AWSMobileHelper_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_AWSMobileHelper_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/outputs/aar/AWSMobileHelper-debug.aar" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/outputs/aar/AWSMobileHelper-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/outputs/aar/AWSMobileHelper-release.aar" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/outputs/aar/AWSMobileHelper-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/mysampleapp/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/3vp3ESafQp5hJlNtlwWVKt2aSso=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/3vp3ESafQp5hJlNtlwWVKt2aSso=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1/debug_3284ab23f6b1fb7a3d65a831f39be3a9d9f870ca/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1/debug_3284ab23f6b1fb7a3d65a831f39be3a9d9f870ca/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AWSMobileHelper/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mysampleapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mysampleapp/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <ignored path="MySampleApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -210,14 +61,14 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
+            <state relative-caret-position="2050">
               <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -226,32 +77,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#1006#1007#0" expanded="false" />
-                <element signature="e#1036#1037#0" expanded="false" />
-                <element signature="e#1087#1088#0" expanded="false" />
-                <element signature="e#1125#1126#0" expanded="false" />
-                <element signature="e#1212#1213#0" expanded="false" />
-                <element signature="e#1245#1246#0" expanded="false" />
-                <element signature="e#1302#1303#0" expanded="false" />
-                <element signature="e#1346#1347#0" expanded="false" />
-                <element signature="e#1431#1432#0" expanded="false" />
-                <element signature="e#1463#1464#0" expanded="false" />
-                <element signature="e#1518#1519#0" expanded="false" />
-                <element signature="e#1560#1561#0" expanded="false" />
-                <element signature="e#1647#1648#0" expanded="false" />
-                <element signature="e#1680#1681#0" expanded="false" />
-                <element signature="e#1737#1738#0" expanded="false" />
-                <element signature="e#1781#1782#0" expanded="false" />
-                <element signature="e#1858#1859#0" expanded="false" />
-                <element signature="e#1886#1887#0" expanded="false" />
-                <element signature="e#1933#1934#0" expanded="false" />
-                <element signature="e#1967#1968#0" expanded="false" />
-                <element signature="e#2052#2053#0" expanded="false" />
-                <element signature="e#2084#2085#0" expanded="false" />
-                <element signature="e#2139#2140#0" expanded="false" />
-                <element signature="e#2181#2182#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -259,11 +85,13 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mysampleapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="499" column="60" selection-start-line="499" selection-start-column="60" selection-end-line="499" selection-end-column="60" />
+            <state relative-caret-position="373">
+              <caret line="163" column="67" selection-start-line="163" selection-start-column="67" selection-end-line="163" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1496016367928" expanded="false" signature="5070:5102" ph="&quot;Home&quot;" />
+                <element signature="e#19956#20430#0" expanded="true" />
+                <element signature="e#20429#20430#0" expanded="true" />
+                <marker date="1496022408802" expanded="false" signature="5128:5160" ph="&quot;Home&quot;" />
               </folding>
             </state>
           </provider>
@@ -2996,9 +2824,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3017,155 +2842,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysampleapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazonaws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nosql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MySampleApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazonaws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3574,7 +3256,6 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989682" sideWeight="0.515311" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932073" sideWeight="0.6478469" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932073" sideWeight="0.49425837" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932073" sideWeight="0.49617225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932073" sideWeight="0.49617225" order="7" side_tool="false" content_ui="tabs" />
@@ -3594,6 +3275,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932073" sideWeight="0.49617225" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3677,9 +3359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3713,7 +3392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3934,9 +3612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3954,7 +3629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3962,7 +3636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3977,32 +3650,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#1006#1007#0" expanded="false" />
-            <element signature="e#1036#1037#0" expanded="false" />
-            <element signature="e#1087#1088#0" expanded="false" />
-            <element signature="e#1125#1126#0" expanded="false" />
-            <element signature="e#1212#1213#0" expanded="false" />
-            <element signature="e#1245#1246#0" expanded="false" />
-            <element signature="e#1302#1303#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="false" />
-            <element signature="e#1431#1432#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
-            <element signature="e#1518#1519#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1647#1648#0" expanded="false" />
-            <element signature="e#1680#1681#0" expanded="false" />
-            <element signature="e#1737#1738#0" expanded="false" />
-            <element signature="e#1781#1782#0" expanded="false" />
-            <element signature="e#1858#1859#0" expanded="false" />
-            <element signature="e#1886#1887#0" expanded="false" />
-            <element signature="e#1933#1934#0" expanded="false" />
-            <element signature="e#1967#1968#0" expanded="false" />
-            <element signature="e#2052#2053#0" expanded="false" />
-            <element signature="e#2084#2085#0" expanded="false" />
-            <element signature="e#2139#2140#0" expanded="false" />
-            <element signature="e#2181#2182#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4010,7 +3658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4061,7 +3708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
+        <state relative-caret-position="2050">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
@@ -4072,11 +3719,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mysampleapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="499" column="60" selection-start-line="499" selection-start-column="60" selection-end-line="499" selection-end-column="60" />
+        <state relative-caret-position="373">
+          <caret line="163" column="67" selection-start-line="163" selection-start-column="67" selection-end-line="163" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1496016367928" expanded="false" signature="5070:5102" ph="&quot;Home&quot;" />
+            <element signature="e#19956#20430#0" expanded="true" />
+            <element signature="e#20429#20430#0" expanded="true" />
+            <marker date="1496022408802" expanded="false" signature="5128:5160" ph="&quot;Home&quot;" />
           </folding>
         </state>
       </provider>
