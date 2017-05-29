@@ -16,12 +16,12 @@
         "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\AWSMobileHelper\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",

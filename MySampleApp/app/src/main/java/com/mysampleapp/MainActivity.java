@@ -51,8 +51,9 @@ import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     /** Username */
-    private final String m_username = getDeviceName();
+    private String m_username = getDeviceName();
     private final String m_userId = AWSMobileClient.defaultMobileClient().getIdentityManager().getCachedUserID();
+    private String m_userConnectedTo = m_username;
 
     /** User's GPS lon/lat/el. */
     // TODO: Replace default values with current GPS data
@@ -417,7 +418,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }).start();
         try {
-            TimeUnit.SECONDS.sleep(1);
+            TimeUnit.MILLISECONDS.sleep(700);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -456,14 +457,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void displayAllUsers()
     {
         // attach method to button
-        String results = "Username    |    UserId\n";
+        // TODO: Need a better way to seperate into columns
+        String results = "List of Available Users:\nUsername\t\t\t\t\t\t\t\t\t\t\t\t\t\t| \t\t\t\t\t\t\t\t\t\t UserId\n";
         scan();
         Iterator<LocationsDO> usersIterator;
         if (scanResults != null){
             usersIterator = scanResults.iterator();
             while(usersIterator.hasNext()) {
                 LocationsDO temp = (LocationsDO)usersIterator.next();
-                results += temp.getUsername() + "       " + temp.getUserId().substring(40) + "\n";
+                results += temp.getUsername() + "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t" + temp.getUserId().substring(40) + "\n";
             }
         }
         textViewUserList.setText(results, TextView.BufferType.EDITABLE);
@@ -476,11 +478,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     // TODO: onClick action for refresh, refreshes list of users and distance
-    public void refresh()
+    public void refresh(View view)
     {
         displayAllUsers();
         // TODO: Calculate distance to the user "connected" to
 
+    }
+
+    // TODO: onClick action for refresh, refreshes list of users and distance
+    public void connect(View view)
+    {
+        //m_userConnectedTo = editTextConnect.toString();
+        // TODO:
+    }
+
+    // TODO: onClick action for refresh, refreshes list of users and distance
+    public void changeUName(View view)
+    {
+        editTextUsername = (EditText)findViewById(R.id.editText_Username);
+        m_username = editTextUsername.getText().toString();
+        insertData(m_username, "current time", 0.0,0.0,0.0);
     }
 
 
@@ -504,7 +521,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }).start();
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.MILLISECONDS.sleep(700);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -100,12 +100,12 @@
         "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\edavi\\.android\\build-cache\\18919b2293743fbced774d965b90bcbc2ea0ed79\\output\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
