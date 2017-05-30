@@ -67,6 +67,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText editTextUsername;
     TextView textViewUserList;
 
+    /** Paired Phones Values*/
+    String pairedPhoneID;
+    String pairedPhoneName;
+    double lon;
+    double lat;
+
     LocationsDO userConnectedto = new LocationsDO();
     PaginatedScanList<LocationsDO> scanResults = null;
 
@@ -489,8 +495,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // TODO: onClick action for refresh, refreshes list of users and distance
     public void connect(View view)
     {
-        //m_userConnectedTo = editTextConnect.toString();
+        m_userConnectedTo = editTextConnect.toString();
         // TODO:
+
     }
 
     // TODO: onClick action for refresh, refreshes list of users and distance
