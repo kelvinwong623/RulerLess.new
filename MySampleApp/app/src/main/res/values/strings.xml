@@ -12,5 +12,6 @@
   <string name="title_activity_main">@string/app_name</string>
   <string name="button_text_sign_in">SIGN IN</string>
   <string name="button_text_sign_out">SIGN OUT</string>
-
+  <string name="update_name_text"><u>Update Name</u></string>
+  <string name="connect_text"><u>Username To Connect To</u></string>
 </resources>

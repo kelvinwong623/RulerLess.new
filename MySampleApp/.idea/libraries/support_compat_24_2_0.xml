@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="support-compat-24.2.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/50573b5d2f59ec4d146f23b0b44906d03bd85f92/output/jars/libs/internal_impl-24.2.0.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/50573b5d2f59ec4d146f23b0b44906d03bd85f92/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/50573b5d2f59ec4d146f23b0b44906d03bd85f92/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/b86d069ae025862a37f703238c66bfb736b4ce5a/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b86d069ae025862a37f703238c66bfb736b4ce5a/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b86d069ae025862a37f703238c66bfb736b4ce5a/output/jars/libs/internal_impl-24.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

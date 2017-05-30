@@ -2278,7 +2278,7 @@ containing a value of this type.
         public static final int basic=0x7f0b0011;
         public static final int beginning=0x7f0b0024;
         public static final int bottom=0x7f0b002e;
-        public static final int buttonCon=0x7f0b0068;
+        public static final int buttonCon=0x7f0b0069;
         public static final int buttonPanel=0x7f0b003a;
         public static final int buttonRefresh=0x7f0b006a;
         public static final int buttonUpdateName=0x7f0b0065;
@@ -2375,7 +2375,7 @@ containing a value of this type.
         public static final int text2=0x7f0b007f;
         public static final int textSpacerNoButtons=0x7f0b0043;
         public static final int textViewDistance=0x7f0b006c;
-        public static final int textView_UserList=0x7f0b0069;
+        public static final int textView_UserList=0x7f0b0068;
         public static final int time=0x7f0b007d;
         public static final int title=0x7f0b0039;
         public static final int title_template=0x7f0b003e;
