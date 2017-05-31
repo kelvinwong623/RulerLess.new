@@ -33,6 +33,7 @@ import com.amazonaws.mobile.AWSMobileClient;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBMapper;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBQueryExpression;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBScanExpression;
+import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.DynamoDBTable;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.PaginatedQueryList;
 import com.amazonaws.mobileconnectors.dynamodbv2.dynamodbmapper.PaginatedScanList;
 import com.amazonaws.mobilehelper.auth.IdentityManager;
@@ -49,6 +50,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
+
+@DynamoDBTable(tableName = "rulerless-mobilehub-1254772316-Locations")
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -497,6 +500,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         m_userConnectedTo = editTextConnect.toString();
         // TODO:
+
 
     }
 

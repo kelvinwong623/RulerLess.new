@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Kelvin Wong\\.android\\build-cache\\0a4a6825ceb3e12e894ba5014a47702267c68107\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Kelvin Wong\\.android\\build-cache\\0a4a6825ceb3e12e894ba5014a47702267c68107\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Kelvin Wong\\.android\\build-cache\\0a4a6825ceb3e12e894ba5014a47702267c68107\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kelvin Wong\\Documents\\GitHub\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Kelvin Wong\\.android\\build-cache\\0a4a6825ceb3e12e894ba5014a47702267c68107\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\edavi\\OneDrive\\School\\Spring 2017\\M117\\RulerLess.new\\MySampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",

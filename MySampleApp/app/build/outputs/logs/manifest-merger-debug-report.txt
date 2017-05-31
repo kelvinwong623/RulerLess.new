@@ -78,7 +78,7 @@ ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\s
 		ADDED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml:40:13-41
 uses-sdk
 INJECTED from C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.0] C:\Users\Kelvin Wong\.android\build-cache\6cc7b2d63fc3b63cbf0b71c1d09840ff7a05bdf5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Kelvin Wong\.android\build-cache\182f00805c747d3c2ca1a929a22d9935241893c3\output\AndroidManifest.xml:18:5-42
 MERGED from [MySampleApp:AWSMobileHelper:unspecified] C:\Users\Kelvin Wong\Documents\GitHub\RulerLess.new\MySampleApp\AWSMobileHelper\build\intermediates\bundles\default\AndroidManifest.xml:15:5-17:41
 MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\0a4a6825ceb3e12e894ba5014a47702267c68107\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Kelvin Wong\.android\build-cache\d4b096c44a67a8dee9c084550aea5e5b6a5b907c\output\AndroidManifest.xml:20:5-44
